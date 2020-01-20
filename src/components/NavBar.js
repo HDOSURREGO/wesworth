@@ -1,5 +1,4 @@
 import React from "react";
-import "./NavBar.css";
 import { Link } from "react-router-dom";
 import Home from "./Home";
 import Electric from "./Electric";
@@ -10,24 +9,31 @@ export default class NavBar extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="nav">
-					<div className="nav-logo">{/* Logo here */}</div>
-
-					<div className="nav-title">
-						<div className="nav-title">
-							<Link to={"/"} className="link">
-								{Home}Home
-							</Link>
-							<Link to={"/electric"} className="link">
-								{Electric} Electric
-							</Link>
-							<Link to={"/builders"} className="link">
-								{Builders} Builders
-							</Link>
-							<Link to={"/management"} className="link">
-								{Management} Management
-							</Link>
-						</div>
+				<div className="nav-bar">
+					<div className="nav-logo">Logo</div>
+					<div>
+						<ul>
+							<li>
+								<Link to={"/"} className="link">
+									{Home}Home
+								</Link>
+							</li>
+							<li>
+								<Link to={"/electric"} className="link">
+									{Electric}Electric
+								</Link>
+							</li>
+							<li>
+								<Link to={"/builders"} className="link">
+									{Builders}Builders
+								</Link>
+							</li>
+							<li>
+								<Link to={"/management"} className="link">
+									{Management}Management
+								</Link>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
