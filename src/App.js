@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Electric from "./components/Electric";
 import Builders from "./components/Builders";
@@ -26,6 +27,9 @@ class App extends React.Component {
 					<Route exact path="/builders" component={Builders} />
 					<Route exact path="/management" component={Management} />
 				</Switch>
+				<div>
+					<Footer />
+				</div>
 			</div>
 		);
 	}

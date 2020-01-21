@@ -23,6 +23,14 @@ export default class Home extends React.Component {
 				</div>
 				<div>
 					<h1>What We Do</h1>
+					<div>Logo Electric</div>
+					<div>Logo Builders</div>
+					<div>Logo Management</div>
+				</div>
+				<div>
+					<div>20 years experience</div>
+					<div>642 Clients</div>
+					<div>972 Projects</div>
 				</div>
 			</div>
 		);
