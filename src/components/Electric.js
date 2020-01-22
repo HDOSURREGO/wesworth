@@ -1,4 +1,5 @@
 import React from "react";
+import WesworthElectric from "./img/WesworthElectric.jpg";
 
 export default class Electric extends React.Component {
 	render() {
@@ -6,10 +7,10 @@ export default class Electric extends React.Component {
 			<div>
 				<div>
 					<img
-						src={"/public/Wesworth-Electric.jpg"}
+						src={WesworthElectric}
 						alt="WesworthElectric"
-						height="500"
-						width="500"
+						height="20%"
+						width="20%"
 					/>
 					<p>
 						Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with the

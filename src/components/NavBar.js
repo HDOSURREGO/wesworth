@@ -1,4 +1,5 @@
 import React from "react";
+import WebFont from "webfontloader";
 import { Link } from "react-router-dom";
 import Home from "./Home";
 import Electric from "./Electric";
