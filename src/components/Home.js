@@ -5,10 +5,10 @@ export default class Home extends React.Component {
 		return (
 			<div>
 				<div>
-					<h1>success through commitment</h1>
+					<h1>SUCCESS THROUGH COMMITMENT</h1>
 				</div>
 				<div>
-					<h1>About Us</h1>
+					<h1>ABOUT US</h1>
 					<p>
 						Wesworth Electric, a state licensed electrical contractor in
 						Florida, was founded in 1981 by Wesley Shreve with the basic
@@ -22,15 +22,15 @@ export default class Home extends React.Component {
 					</p>
 				</div>
 				<div>
-					<h1>What We Do</h1>
+					<h1>WHAT WE DO</h1>
 					<div>Logo Electric</div>
 					<div>Logo Builders</div>
 					<div>Logo Management</div>
 				</div>
 				<div>
-					<div>20 years experience</div>
-					<div>642 Clients</div>
-					<div>972 Projects</div>
+					<div>20 YEARS OF EXPERIENCE</div>
+					<div>642 CLIENTS</div>
+					<div>972 PROJECTS</div>
 				</div>
 			</div>
 		);

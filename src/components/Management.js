@@ -5,7 +5,7 @@ export default class Management extends React.Component {
 		return (
 			<div>
 				<div>
-					<h1>Management</h1>
+					<h1>MANAGEMENT</h1>
 					<div>
 						<p>
 							Occaecat do laboris labore veniam occaecat velit aliqua labore non

@@ -1,11 +1,11 @@
 import React from "react";
-import WebFont from "webfontloader";
+// import WebFont from "webfontloader";
 import { Link } from "react-router-dom";
 import Home from "./Home";
 import Electric from "./Electric";
 import Builders from "./Builders";
 import Management from "./Management";
-import WesworthConstruction from "./img/WesworthConstruction.jpg";
+import WesworthConstruction from "./img/WCG_White.png";
 import "./NavBar.css";
 
 export default class NavBar extends React.Component {
@@ -13,33 +13,30 @@ export default class NavBar extends React.Component {
 		return (
 			<div className="navbar">
 				<div className="nav-logo">
-					<img
-						src={WesworthConstruction}
-						alt=" "
-						width="150px"
-						height="150px"
-					/>
+					<Link to={"/"} className="link">
+						<img src={WesworthConstruction} alt=" " width="25%" />
+					</Link>
 				</div>
 				<div className="nav-titles">
 					<ul>
 						<li>
-							<Link to={"/"} className="link">
-								{Home}Home
-							</Link>
-						</li>
-						<li>
-							<Link to={"/electric"} className="link">
-								{Electric}Electric
+							<Link to={"/management"} className="link">
+								{Management}MANAGEMENT
 							</Link>
 						</li>
 						<li>
 							<Link to={"/builders"} className="link">
-								{Builders}Builders
+								{Builders}BUILDERS
 							</Link>
 						</li>
 						<li>
-							<Link to={"/management"} className="link">
-								{Management}Management
+							<Link to={"/electric"} className="link">
+								{Electric}ELECTRIC
+							</Link>
+						</li>
+						<li>
+							<Link to={"/"} className="link">
+								{Home}HOME
 							</Link>
 						</li>
 					</ul>
