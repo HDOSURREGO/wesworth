@@ -45,26 +45,46 @@
 	align-items: center;
 }
 h1 {
-	float: right;
-	list-style: none;
+	text-align: center;
 	padding: 1%;
 	font-family: futuraStdHeavy;
 	font-size: 2vw;
-	text-align: center;
 }
 
 p {
 	font-family: futuraStdBook;
 	font-size: 1vw;
-	width: 70%;
+	width: 60%;
 	text-align: justify;
 	padding-bottom: 1%;
 }
 
 .whatWeDo {
 	display: flex;
+	justify-content: center;
+	text-align: center;
+	background: white;
 }
+
 .logo {
-	float: 33.33%;
-	padding: 5px;
+	padding: 5%;
+	justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px) {
+	.whatWeDo {
+		width: 100%;
+	}
+}
+
+.experience {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+	text-align: center;
+	background: #404041;
+	color: white;
+	font-family: futuraStdHeavy;
+	font-size: 2vw;
+	padding: 3.5%;
 }

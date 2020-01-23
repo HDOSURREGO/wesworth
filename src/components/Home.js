@@ -36,15 +36,19 @@ export default class Home extends React.Component {
 						Great Quality and Excellent Customer Service.
 					</p>
 				</div>
+				<div>
+					<h1>WHAT WE DO</h1>
+				</div>
+
 				<div className="whatWeDo">
 					<div className="logo">
 						<Link to={"/electric"} className="link">
-							<img src={WesworthElectric} alt="WesworthElectric" width="25%" />
+							<img src={WesworthElectric} alt="WesworthElectric" width="50%" />
 						</Link>
 					</div>
 					<div className="logo">
 						<Link to={"/builders"} className="link">
-							<img src={WesworthBuilders} alt="WesworthBuilders" width="25%" />
+							<img src={WesworthBuilders} alt="WesworthBuilders" width="50%" />
 						</Link>
 					</div>
 					<div className="logo">
@@ -52,13 +56,13 @@ export default class Home extends React.Component {
 							<img
 								src={WesworthManagement}
 								alt="WesworthManagement"
-								width="25%"
+								width="50%"
 							/>
 						</Link>
 					</div>
 				</div>
-				<div>
-					<div>20 YEARS OF EXPERIENCE</div>
+				<div className="experience">
+					<div>39 YEARS OF EXPERIENCE</div>
 					<div>642 CLIENTS</div>
 					<div>972 PROJECTS</div>
 				</div>
