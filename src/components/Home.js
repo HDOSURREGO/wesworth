@@ -1,11 +1,21 @@
 import React from "react";
+import WesworthConstructionBackground from "./img/WcgBackgroundFlippedPano.jpg";
+import "./Home.css";
 
 export default class Home extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>
-					<h1>SUCCESS THROUGH COMMITMENT</h1>
+				<div className="centralBanner">
+					<img
+						className="wcgBackground"
+						src={WesworthConstructionBackground}
+						alt=" "
+						width="100%"
+					/>
+					<div className="centeredTop">SUCCESS</div>
+					<div className="centeredMiddle">THROUGH</div>
+					<div className="centeredBottom">COMMITMENT</div>
 				</div>
 				<div>
 					<h1>ABOUT US</h1>

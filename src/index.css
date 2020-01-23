@@ -21,3 +21,15 @@ code {
 	font-family: "futuraStdBold";
 	src: local("futuraStdBold"), url(./fonts/futuraStdBold.otf) format("OpenType");
 }
+
+@font-face {
+	font-family: "futuraStdHeavy";
+	src: local("futuraStdHeavy"),
+		url(./fonts/futuraStdHeavy.otf) format("OpenType");
+}
+
+@font-face {
+	font-family: "futuraStdHeavyOblique";
+	src: local("futuraStdHeavyOblique"),
+		url(./fonts/futuraStdHeavyOblique.otf) format("OpenType");
+}

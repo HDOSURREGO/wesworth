@@ -5,6 +5,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 import "./fonts/futuraStdBold.otf";
+import "./fonts/futuraStdHeavy.otf";
+import "./fonts/futuraStdHeavyOblique.otf";
 
 ReactDOM.render(
 	<BrowserRouter>

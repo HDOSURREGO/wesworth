@@ -8,7 +8,7 @@ export default class Electric extends React.Component {
 				<div>
 					<img
 						src={WesworthElectric}
-						alt="WesworthElectric"
+						alt="Wesworth-Electric"
 						height="20%"
 						width="20%"
 					/>
