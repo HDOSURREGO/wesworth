@@ -1,5 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import WesworthConstructionBackground from "./img/WcgBackgroundFlippedPano.jpg";
+import WesworthElectric from "./img/WElectric_transparente.png";
+import WesworthBuilders from "./img/WBuilders_transparente.png";
+import WesworthManagement from "./img/WManagement_transparente.png";
 import "./Home.css";
 
 export default class Home extends React.Component {
@@ -17,10 +21,11 @@ export default class Home extends React.Component {
 					<div className="centeredMiddle">THROUGH</div>
 					<div className="centeredBottom">COMMITMENT</div>
 				</div>
-				<div>
+				<div className="aboutUS">
 					<h1>ABOUT US</h1>
 					<p>
-						Wesworth Electric, a state licensed electrical contractor in
+						Wesworth Construction Group is the result of a group of experiences
+						we have had in the past. A state licensed electrical contractor in
 						Florida, was founded in 1981 by Wesley Shreve with the basic
 						objective of serving his community with great quality and excellent
 						customer service. Over the years Wesworth Electric has evolved the
@@ -31,11 +36,26 @@ export default class Home extends React.Component {
 						Great Quality and Excellent Customer Service.
 					</p>
 				</div>
-				<div>
-					<h1>WHAT WE DO</h1>
-					<div>Logo Electric</div>
-					<div>Logo Builders</div>
-					<div>Logo Management</div>
+				<div className="whatWeDo">
+					<div className="logo">
+						<Link to={"/electric"} className="link">
+							<img src={WesworthElectric} alt="WesworthElectric" width="25%" />
+						</Link>
+					</div>
+					<div className="logo">
+						<Link to={"/builders"} className="link">
+							<img src={WesworthBuilders} alt="WesworthBuilders" width="25%" />
+						</Link>
+					</div>
+					<div className="logo">
+						<Link to={"/management"} className="link">
+							<img
+								src={WesworthManagement}
+								alt="WesworthManagement"
+								width="25%"
+							/>
+						</Link>
+					</div>
 				</div>
 				<div>
 					<div>20 YEARS OF EXPERIENCE</div>

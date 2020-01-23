@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./fonts/futuraStdBold.otf";
 import "./fonts/futuraStdHeavy.otf";
 import "./fonts/futuraStdHeavyOblique.otf";
+import "./fonts/futuraStdBook.otf";
 
 ReactDOM.render(
 	<BrowserRouter>

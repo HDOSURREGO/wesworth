@@ -1,5 +1,5 @@
 import React from "react";
-import WesworthElectric from "./img/WesworthElectric.jpg";
+import WesworthElectric from "./img/WElectric_transparente.png";
 
 export default class Electric extends React.Component {
 	render() {

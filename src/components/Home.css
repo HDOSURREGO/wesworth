@@ -2,6 +2,7 @@
 	position: relative;
 	text-align: center;
 	color: white;
+	margin: 0px;
 }
 
 .centeredTop {
@@ -11,7 +12,7 @@
 	transform: translate(-50%, -50%);
 	font-family: futuraStdHeavy;
 	font-size: 6vw;
-	text-shadow: 2px 2px black;
+	text-shadow: 4px 4px black;
 }
 
 .centeredMiddle {
@@ -21,7 +22,7 @@
 	transform: translate(-50%, -50%);
 	font-family: futuraStdHeavyOblique;
 	font-size: 6vw;
-	text-shadow: 2px 2px black;
+	text-shadow: 4px 4px black;
 }
 
 .centeredBottom {
@@ -31,5 +32,39 @@
 	transform: translate(50%, 50%);
 	font-family: futuraStdHeavy;
 	font-size: 6vw;
-	text-shadow: 2px 2px black;
+	text-shadow: 4px 4px black;
+}
+
+.aboutUS {
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	background: #404041;
+	color: white;
+	padding: 1%;
+	align-items: center;
+}
+h1 {
+	float: right;
+	list-style: none;
+	padding: 1%;
+	font-family: futuraStdHeavy;
+	font-size: 2vw;
+	text-align: center;
+}
+
+p {
+	font-family: futuraStdBook;
+	font-size: 1vw;
+	width: 70%;
+	text-align: justify;
+	padding-bottom: 1%;
+}
+
+.whatWeDo {
+	display: flex;
+}
+.logo {
+	float: 33.33%;
+	padding: 5px;
 }

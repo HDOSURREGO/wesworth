@@ -1,8 +1,7 @@
 body {
 	width: 100%;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
+	font-family: "futuraStd-Medium", "futuraStdBold", "futuraStdBook",
+		"futuraStdHeavy", "futuraStdHeavyOblique", "helveticaNeueLTStdRoman";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -15,6 +14,7 @@ code {
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 @font-face {
@@ -32,4 +32,8 @@ code {
 	font-family: "futuraStdHeavyOblique";
 	src: local("futuraStdHeavyOblique"),
 		url(./fonts/futuraStdHeavyOblique.otf) format("OpenType");
+}
+@font-face {
+	font-family: "futuraStdBook";
+	src: local("futuraStdBook"), url(./fonts/futuraStdBook.otf) format("OpenType");
 }
