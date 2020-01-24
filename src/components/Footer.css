@@ -1,6 +1,51 @@
 .contactUsForm {
+	display: flex;
+	flex-flow: column;
+	align-content: space-between;
+	padding: 1% 25% 1% 25%;
 	font-family: "futuraStdBook";
-	font-size: 1.5vw;
+	font-size: 1vw;
 	background: #404041;
 	color: white;
+	background-image: url("./img/contactus-background.jpg");
+	background-size: cover;
+}
+
+.form-group {
+	padding: 1%;
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: left;
+}
+
+.form-input {
+	background-color: transparent;
+	width: 100%;
+	padding: 10px 2px 10px 2px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+}
+
+.label {
+	text-align: left;
+	padding: 5px 0px 5px 0px;
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+}
+
+.btn {
+	display: inline-block;
+	background-color: transparent;
+	color: white;
+	width: 30%;
+	padding: 10px 10px 10px 0px;
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+	text-align: center;
 }

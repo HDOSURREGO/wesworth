@@ -8,31 +8,30 @@ export default class Footer extends React.Component {
 				<div className="contactUsForm">
 					<h1>CONTACT US</h1>
 					<div>
-						<form
-							className="contact-form"
-							// onSubmit={this.handleSubmit.bind(this)}
-							// method="POST"
-						>
+						<form className="contact-form">
 							<div className="form-group">
 								<label htmlFor="name">Name</label>
-								<input type="text" className="form-control" />
+								<input type="text" className="form-input" />
 							</div>
 							<div className="form-group">
 								<label htmlFor="exampleInputEmail1">Email address</label>
 								<input
 									type="email"
-									className="form-control"
+									className="form-input"
 									aria-describedby="emailHelp"
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="message">Message</label>
-								<textarea className="form-control" rows="5"></textarea>
+								<textarea className="form-input" rows="5"></textarea>
 							</div>
-							<button type="submit" className="btn btn-primary">
-								Submit
-							</button>
 						</form>
+						<button type="submit" className="btn">
+							Submit
+						</button>
+						<button type="submit" className="btn">
+							Clear Form
+						</button>
 					</div>
 				</div>
 				<div className="footer">
