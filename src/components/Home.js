@@ -14,7 +14,7 @@ export default class Home extends React.Component {
 					<img
 						className="wcgBackground"
 						src={WesworthConstructionBackground}
-						alt=" "
+						alt="WesworthConstructionBackground"
 						width="100%"
 					/>
 					<div className="centeredTop">SUCCESS</div>
@@ -36,9 +36,9 @@ export default class Home extends React.Component {
 						Great Quality and Excellent Customer Service.
 					</p>
 				</div>
-				<div>
+				{/* <div>
 					<h1>WHAT WE DO</h1>
-				</div>
+				</div> */}
 
 				<div className="whatWeDo">
 					<div className="logo">
