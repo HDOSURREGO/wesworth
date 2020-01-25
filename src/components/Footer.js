@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import WesworthConstruction from "./img/WCG_White.png";
 import "./Footer.css";
 
 export default class Footer extends React.Component {
@@ -35,9 +37,22 @@ export default class Footer extends React.Component {
 					</div>
 				</div>
 				<div className="footer">
-					<div>Logo & Address</div>
-					<div>newsletter bar & text</div>
-					<div>Useful Links</div>
+					<div className="logoAddress">
+						<Link to={"/"} className="link">
+							<img
+								src={WesworthConstruction}
+								alt="Wesworth Construction"
+								// width="100%"
+							/>
+						</Link>
+						<div>
+							<p>2351 N Dixie Hwy Pompano Beach, FL 33060</p>
+						</div>
+					</div>
+
+					<div className="newsletter">newsletter bar & text</div>
+
+					<div className="usefulLinks">Useful Links</div>
 				</div>
 			</div>
 		);

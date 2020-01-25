@@ -8,6 +8,7 @@ import "./fonts/futuraStdBold.otf";
 import "./fonts/futuraStdHeavy.otf";
 import "./fonts/futuraStdHeavyOblique.otf";
 import "./fonts/futuraStdBook.otf";
+import "./fonts/futuraStd-Medium.otf";
 
 ReactDOM.render(
 	<BrowserRouter>

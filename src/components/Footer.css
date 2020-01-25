@@ -31,7 +31,7 @@
 
 .label {
 	text-align: left;
-	padding: 5px 0px 5px 0px;
+	padding: 5px;
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 }
@@ -48,4 +48,44 @@
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 20vh;
+	background-color: #999899;
+	color: white;
+}
+
+.logoAddress {
+	background-color: red;
+	/* display: block; */
+	align-items: center;
+	font-family: "futuraStd-Medium";
+}
+
+p {
+	font-family: futuraStd-Medium;
+	font-size: 0.8vw;
+	line-height: 1.2;
+	width: 50%;
+	text-align: left;
+	padding: 1%;
+	text-align: center;
+}
+img {
+	/* background-color: yellow; */
+	padding: 2%;
+	/* display: block; */
+}
+
+.newsletter {
+	background-color: red;
+}
+
+.usefulLinks {
+	background-color: red;
 }

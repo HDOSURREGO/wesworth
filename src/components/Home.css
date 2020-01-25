@@ -2,7 +2,7 @@
 	position: relative;
 	text-align: center;
 	color: white;
-	background: #404041;
+	background: white;
 }
 
 .centeredTop {
@@ -54,7 +54,7 @@ h1 {
 p {
 	font-family: futuraStdBook;
 	font-size: 1vw;
-	line-height: 1.6;
+	line-height: 1.8;
 	width: 60%;
 	text-align: justify;
 	padding-bottom: 1%;

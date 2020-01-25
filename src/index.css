@@ -36,3 +36,9 @@ code {
 	font-family: "futuraStdBook";
 	src: local("futuraStdBook"), url(./fonts/futuraStdBook.otf) format("OpenType");
 }
+
+@font-face {
+	font-family: "futuraStd-Medium";
+	src: local("futuraStd-Medium"),
+		url(./fonts/futuraStd-Medium.otf) format("OpenType");
+}
