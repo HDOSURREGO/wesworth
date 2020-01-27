@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import WesworthConstruction from "./img/WCG_White.png";
 import "./Footer.css";
+import Home from "./Home";
+import Electric from "./Electric";
+import Builders from "./Builders";
+import Management from "./Management";
 
 export default class Footer extends React.Component {
 	render() {
@@ -42,7 +46,7 @@ export default class Footer extends React.Component {
 							<img
 								src={WesworthConstruction}
 								alt="Wesworth Construction"
-								// width="100%"
+								// width="25%"
 							/>
 						</Link>
 						<div>
@@ -50,9 +54,58 @@ export default class Footer extends React.Component {
 						</div>
 					</div>
 
-					<div className="newsletter">newsletter bar & text</div>
+					<div className="newsletter">
+						<form>
+							<div class="container">
+								<h2>NEWSLETTER</h2>
+								<p>
+									Subscribe to our newsletter to get relevant information about
+									our group.
+								</p>
+							</div>
 
-					<div className="usefulLinks">Useful Links</div>
+							<div class="form-group">
+								<input
+									className="form-input-nl"
+									type="text"
+									placeholder="Email address"
+									name="mail"
+								/>
+							</div>
+
+							<div class="container">
+								<button type="submit" className="btn-nl">
+									Subscribe
+								</button>
+							</div>
+						</form>
+					</div>
+
+					<div className="usefulLinks">
+						<h2>USEFUL LINKS</h2>
+						<ul>
+							<li>
+								<Link to={"/"} className="link">
+									{Home}HOME
+								</Link>
+							</li>
+							<li>
+								<Link to={"/electric"} className="link">
+									{Electric}ELECTRIC
+								</Link>
+							</li>
+							<li>
+								<Link to={"/builders"} className="link">
+									{Builders}BUILDERS
+								</Link>
+							</li>
+							<li>
+								<Link to={"/management"} className="link">
+									{Management}MANAGEMENT
+								</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		);

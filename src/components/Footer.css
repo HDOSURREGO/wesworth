@@ -61,31 +61,87 @@
 }
 
 .logoAddress {
-	background-color: red;
-	/* display: block; */
-	align-items: center;
+	display: block;
+	text-align: center;
 	font-family: "futuraStd-Medium";
 }
 
-p {
-	font-family: futuraStd-Medium;
+.logoAddress img {
+	padding: 2%;
+	width: 25%;
+}
+.logoAddress p {
+	display: inline-block;
+	font-family: "futuraStd-Medium";
 	font-size: 0.8vw;
 	line-height: 1.2;
 	width: 50%;
-	text-align: left;
 	padding: 1%;
 	text-align: center;
 }
-img {
-	/* background-color: yellow; */
-	padding: 2%;
-	/* display: block; */
-}
 
 .newsletter {
-	background-color: red;
+	display: block;
+	text-align: center;
+	font-family: "futuraStd-Medium";
+}
+
+.form-input-nl {
+	background-color: transparent;
+	width: 100%;
+	padding: 1%;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+}
+
+.btn-nl {
+	display: inline-block;
+	background-color: transparent;
+	color: white;
+	width: 50%;
+	padding: 1%;
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 5px;
+	font-family: "futuraStdBook";
+	font-size: 0.75vw;
+	text-align: center;
+}
+
+::placeholder {
+	color: lightgray;
+	font-size: 0.75vw;
+}
+
+.newsletter p {
+	display: inline-block;
+	font-family: "futuraStd-Medium";
+	font-size: 0.8vw;
+	line-height: 1.2;
+	width: 100%;
+	padding: 1%;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	padding: 1%;
+	font-family: "futuraStdHeavy";
+	font-size: 1vw;
+	width: 100%;
 }
 
 .usefulLinks {
-	background-color: red;
+	padding: 1%;
+	font-family: "futuraStdBook";
+	font-size: 0.75vw;
+	text-decoration: none;
+}
+
+.usefulLinks a {
+	text-decoration: none;
+	margin: auto;
 }

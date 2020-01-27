@@ -57,9 +57,6 @@ export default class Home extends React.Component {
 						Great Quality and Excellent Customer Service.
 					</p>
 				</div>
-				{/* <div>
-					<h1>WHAT WE DO</h1>
-				</div> */}
 
 				<div className="experience">
 					<div>39 YEARS OF EXPERIENCE</div>
