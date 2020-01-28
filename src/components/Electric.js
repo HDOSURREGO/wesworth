@@ -1,11 +1,12 @@
 import React from "react";
 import WesworthElectric from "./img/WElectric_transparente.png";
+import "./Electric.css";
 
 export default class Electric extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>
+				<div className="electrical-head">
 					<img
 						src={WesworthElectric}
 						alt="Wesworth-Electric"
@@ -23,6 +24,14 @@ export default class Electric extends React.Component {
 						principles we were founded on: Great Quality and Excellent Customer
 						Service.
 					</p>
+				</div>
+				<div class="sidebar">
+					<a class="active" href="#home">
+						Home
+					</a>
+					<a href="#news">News</a>
+					<a href="#contact">Contact</a>
+					<a href="#about">About</a>
 				</div>
 			</div>
 		);
