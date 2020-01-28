@@ -24,7 +24,8 @@ export default class NavBar extends React.Component {
 					<ul>
 						<li>
 							<Link to={"/management"} className="link">
-								{Management}MANAGEMENT
+								{Management}
+								MANAGEMENT
 							</Link>
 						</li>
 						<li>
@@ -34,7 +35,8 @@ export default class NavBar extends React.Component {
 						</li>
 						<li>
 							<Link to={"/electric"} className="link">
-								{Electric}ELECTRIC
+								{Electric}
+								ELECTRIC
 							</Link>
 						</li>
 						<li>

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ElectricSidebar.css";
-import CommercialServices from "./CommercialServices";
-import IndustrialServices from "./IndustrialServices";
-import BuilderServices from "./BuilderServices";
+// import CommercialServices from "./CommercialServices";
+// import IndustrialServices from "./IndustrialServices";
+// import BuilderServices from "./BuilderServices";
 
 export default class ElectricSidebar extends React.Component {
 	render() {
@@ -11,19 +11,16 @@ export default class ElectricSidebar extends React.Component {
 			<div>
 				<ul>
 					<li>
-						<Link to={"/electrical/commercial-services"} className="link">
-							{CommercialServices}COMMERCIAL SERVICES
-						</Link>
+						COMMERCIAL SERVICES
+						{/* <CommercialServices /> */}
 					</li>
 					<li>
-						<Link to={"/electrical/industrial-services"} className="link">
-							{IndustrialServices}INDUSTRIAL SERVICES
-						</Link>
+						INDUSTRIAL SERVICES
+						{/* <IndustrialServices /> */}
 					</li>
 					<li>
-						<Link to={"/electric/builder-services"} className="link">
-							{BuilderServices}BUILDER SERVICES
-						</Link>
+						BUILDER SERVICES
+						{/* <BuilderServices /> */}
 					</li>
 					{/* <li>
 						<Link
