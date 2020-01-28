@@ -1,10 +1,22 @@
+.electrical-head {
+	display: flex;
+	flex-direction: row;
+	background-color: teal;
+	padding: 2%;
+}
+
+.electrical-head img {
+	display: inline-block;
+	width: 25%;
+}
+
 /* The side navigation menu */
 .sidebar {
 	margin: 0;
 	padding: 0;
 	width: 200px;
-	background-color: #f1f1f1;
-	position: fixed;
+	background-color: green;
+	/* position: absolute; */
 	height: 100%;
 	overflow: auto;
 }
@@ -33,7 +45,7 @@
 div.content {
 	margin-left: 200px;
 	padding: 1px 16px;
-	height: 1000px;
+	height: 100%;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */

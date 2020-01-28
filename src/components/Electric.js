@@ -7,12 +7,7 @@ export default class Electric extends React.Component {
 		return (
 			<div>
 				<div className="electrical-head">
-					<img
-						src={WesworthElectric}
-						alt="Wesworth-Electric"
-						height="20%"
-						width="20%"
-					/>
+					<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
 					<p>
 						Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with the
 						basic objective of serving his community with a great quality and a
@@ -33,6 +28,8 @@ export default class Electric extends React.Component {
 					<a href="#contact">Contact</a>
 					<a href="#about">About</a>
 				</div>
+				{/* Page content */}
+				<div class="content">..</div>
 			</div>
 		);
 	}
