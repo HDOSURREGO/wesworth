@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import "./Electric.css";
+import CommercialServices from "./CommercialServices";
+import IndustrialServices from "./IndustrialServices";
+import BuilderServices from "./BuilderServices";
+import ElectricSidebar from "./ElectricSidebar";
 
 export default class Electric extends React.Component {
 	render() {
@@ -20,16 +25,32 @@ export default class Electric extends React.Component {
 						Service.
 					</p>
 				</div>
-				<div class="sidebar">
-					<a class="active" href="#home">
-						Home
-					</a>
-					<a href="#news">News</a>
-					<a href="#contact">Contact</a>
-					<a href="#about">About</a>
+				<div>
+					<ElectricSidebar />
 				</div>
+				{/* <div class="sidebar">
+					<ul>
+						<li>
+							<Link to={"/electrical/commercial-services"} className="link">
+								{CommercialServices}COMMERCIAL SERVICES
+							</Link>
+						</li>
+						<li>
+							<Link to={"/electrical/industrial-services"} className="link">
+								{IndustrialServices}INDUSTRIAL SERVICES
+							</Link>
+						</li>
+						<li>
+							<Link to={"/electric/builder-services"} className="link">
+								{BuilderServices}BUILDER SERVICES
+							</Link>
+						</li>
+					</ul>
+				</div> */}
 				{/* Page content */}
-				<div class="content">..</div>
+				<div class="content">
+					<h1>CONTENT FROM SIDEBAR</h1>
+				</div>
 			</div>
 		);
 	}

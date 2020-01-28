@@ -6,6 +6,9 @@ import Home from "./components/Home";
 import Electric from "./components/Electric";
 import Builders from "./components/Builders";
 import Management from "./components/Management";
+import CommercialServices from "./components/CommercialServices";
+import IndustrialServices from "./components/IndustrialServices";
+import BuilderServices from "./components/BuilderServices";
 
 class App extends React.Component {
 	constructor(props) {
@@ -27,6 +30,21 @@ class App extends React.Component {
 						<Route exact path="/electric" component={Electric} />
 						<Route exact path="/builders" component={Builders} />
 						<Route exact path="/management" component={Management} />
+						<Route
+							exact
+							path="/electric/commercial-services"
+							component={CommercialServices}
+						/>
+						<Route
+							exact
+							path="/electric/industrial-services"
+							component={IndustrialServices}
+						/>
+						<Route
+							exact
+							path="/electric/builder-services"
+							component={BuilderServices}
+						/>
 					</Switch>
 				</div>
 				<div>
