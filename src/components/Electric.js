@@ -8,7 +8,7 @@ export default class Electric extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="electrical-head">
+				<div className="electric-head">
 					<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
 					<p>
 						Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with the
