@@ -1,1 +1,12 @@
+.sidebar {
+	display: block;
+	background-color: lightgray;
+}
 
+li {
+	text-align: left;
+	padding: 1%;
+	font-family: "futuraStdHeavy";
+	font-size: 1vw;
+	color: #e15829;
+}

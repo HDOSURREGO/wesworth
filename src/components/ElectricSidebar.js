@@ -8,13 +8,13 @@ import "./ElectricSidebar.css";
 export default class ElectricSidebar extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="sidebar">
 				<ul>
-					<li>COMMERCIAL SERVICES</li>
-					<li>INDUSTRIAL SERVICES</li>
-					<li>BUILDER SERVICES</li>
-					<li>PROPERTY MANAGEMENT SERVICES</li>
-					<li>RESIDENCIAL SERVICES</li>
+					<li>COMMERCIAL SERVICES +</li>
+					<li>INDUSTRIAL SERVICES +</li>
+					<li>BUILDER SERVICES +</li>
+					<li>PROPERTY MANAGEMENT SERVICES +</li>
+					<li>RESIDENCIAL SERVICES +</li>
 				</ul>
 			</div>
 		);
