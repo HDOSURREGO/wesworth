@@ -3,6 +3,7 @@ import WesworthElectric from "./img/WElectric_transparente.png";
 import "./Electric.css";
 
 import ElectricSidebar from "./ElectricSidebar";
+import CommercialServices from "./CommercialServices";
 
 export default class Electric extends React.Component {
 	render() {
@@ -22,12 +23,12 @@ export default class Electric extends React.Component {
 						Service.
 					</p>
 				</div>
-				<div>
+				<div className="sidebar">
 					<ElectricSidebar />
 				</div>
 				{/* Page content */}
-				<div class="content">
-					<h1>CONTENT FROM SIDEBAR</h1>
+				<div class="service-content">
+					<CommercialServices />
 				</div>
 			</div>
 		);

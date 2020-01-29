@@ -1,12 +1,19 @@
-.sidebar {
+.sidebar ul {
 	display: block;
-	background-color: lightgray;
+	text-align: left;
+	background-color: white;
+	margin-left: 10px;
+	width: 300px;
 }
 
-li {
-	text-align: left;
-	padding: 1%;
+.sidebar li {
+	display: inline-block;
+	justify-content: space-evenly;
+	flex-flow: row nowrap;
+	list-style: none;
+	padding: 1px;
 	font-family: "futuraStdHeavy";
-	font-size: 1vw;
+	font-size: 1.2vw;
 	color: #e15829;
+	border-bottom: 3px solid black;
 }
