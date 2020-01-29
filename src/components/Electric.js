@@ -8,7 +8,7 @@ import CommercialServices from "./CommercialServices";
 export default class Electric extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="electric-wrapper">
 				<div className="electric-head">
 					<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
 					<p>
@@ -23,7 +23,7 @@ export default class Electric extends React.Component {
 						Service.
 					</p>
 				</div>
-				<div className="sidebar">
+				<div className="electric-sidebar">
 					<ElectricSidebar />
 				</div>
 				{/* Page content */}

@@ -94,8 +94,10 @@ hr {
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.service-content {
+	display: flex;
+	flex-direction: row;
 	margin-left: 300px;
-	padding: 1px 1px;
+	padding: 0px 0px 10px 50px;
 	height: 100%;
 }
 

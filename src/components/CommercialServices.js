@@ -4,7 +4,7 @@ import "./CommercialServices.css";
 export default class CommercialServices extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="service-wrapper">
 				<h2>COMMERCIAL SERVICES</h2>
 				<hr />
 				<div class="commercial-services">
