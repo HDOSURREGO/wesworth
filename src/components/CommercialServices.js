@@ -33,8 +33,7 @@ export default class CommercialServices extends React.Component {
 							Electrical failures are disruptive to your business and it is
 							always good to have someone to call
 						</p>
-						<p>We will be there for you 24/7</p>
-						<p>Call us - (954) 580 4070</p>
+						<p>We will be there for you 24/7 Call us - (954) 580 4070</p>
 					</div>
 					<div class="column-right">
 						<h3>Industry Specific Services</h3>

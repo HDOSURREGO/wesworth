@@ -4,7 +4,7 @@ import "./Electric.css";
 
 import ElectricSidebar from "./ElectricSidebar";
 import CommercialServices from "./CommercialServices";
-// import IndustrialServices from "./IndustrialServices";
+import IndustrialServices from "./IndustrialServices";
 
 export default class Electric extends React.Component {
 	render() {
