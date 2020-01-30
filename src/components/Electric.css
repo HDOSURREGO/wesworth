@@ -12,38 +12,9 @@
 	width: 10%;
 }
 
-/* .service-content {
-	height: 100%;
-} */
-
-/* .commercial-services {
-	display: flex;
-	flex-direction: row;
-	background-color: white;
-} */
-
-/* .service-content h3 {
-	text-align: left;
-	padding: 1%;
-	font-family: "futuraStdHeavy";
-	font-size: 1vw;
-	color: #e15829;
+.service-content {
+	justify-content: flex-end;
 }
-
-.service-content h2 {
-	text-align: left;
-	padding: 0%;
-	font-family: "futuraStdHeavy";
-	font-size: 1vw;
-	color: #e15829;
-}
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 3px solid black;
-	padding: 0;
-} */
 
 .column-left ul li {
 	font-family: "futuraStdBook";
@@ -72,26 +43,6 @@ hr {
 	/* overflow: auto; */
 }
 
-/* Sidebar links */
-/* .sidebar a {
-	display: block;
-	color: black;
-	padding: 16px;
-	text-decoration: none;
-} */
-
-/* Active/current link */
-.sidebar a.active {
-	background-color: #4caf50;
-	color: white;
-}
-
-/* Links on mouse-over */
-/* .sidebar a:hover:not(.active) {
-	background-color: #555;
-	color: white;
-} */
-
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.service-content {
 	display: flex;
@@ -100,26 +51,3 @@ div.service-content {
 	padding: 0px 0px 10px 50px;
 	height: 100%;
 }
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-/* @media screen and (max-width: 700px) {
-	.sidebar {
-		width: 100%;
-		height: auto;
-		position: relative;
-	}
-	.sidebar a {
-		float: left;
-	}
-	div.service-content {
-		margin-left: 0;
-	}
-} */
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-/* @media screen and (max-width: 400px) {
-	.sidebar a {
-		text-align: center;
-		float: none;
-	}
-} */

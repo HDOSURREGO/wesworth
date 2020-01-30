@@ -21,6 +21,21 @@ export default class Home extends React.Component {
 					<div className="centeredMiddle">THROUGH</div>
 					<div className="centeredBottom">COMMITMENT</div>
 				</div>
+				<div className="aboutUS">
+					<h1>ABOUT US</h1>
+					<p>
+						Wesworth Construction Group is the result of a group of experiences
+						we have had in the past. A state licensed electrical contractor in
+						Florida, was founded in 1981 by Wesley Shreve with the basic
+						objective of serving his community with great quality and excellent
+						customer service. Over the years Wesworth Electric has evolved the
+						array of services it offers, from residential to high voltage and
+						complex industrial installations. Nowadays, Wesworth Electric is a
+						division of Wesworth Construction Group spanning customers in two
+						states, and still keeping the basic principles it was founded on:
+						Great Quality and Excellent Customer Service.
+					</p>
+				</div>
 				<div className="whatWeDo">
 					<div className="logo">
 						<Link to={"/electric"} className="link">
@@ -41,21 +56,6 @@ export default class Home extends React.Component {
 							/>
 						</Link>
 					</div>
-				</div>
-				<div className="aboutUS">
-					<h1>ABOUT US</h1>
-					<p>
-						Wesworth Construction Group is the result of a group of experiences
-						we have had in the past. A state licensed electrical contractor in
-						Florida, was founded in 1981 by Wesley Shreve with the basic
-						objective of serving his community with great quality and excellent
-						customer service. Over the years Wesworth Electric has evolved the
-						array of services it offers, from residential to high voltage and
-						complex industrial installations. Nowadays, Wesworth Electric is a
-						division of Wesworth Construction Group spanning customers in two
-						states, and still keeping the basic principles it was founded on:
-						Great Quality and Excellent Customer Service.
-					</p>
 				</div>
 
 				<div className="experience">

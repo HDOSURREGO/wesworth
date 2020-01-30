@@ -1,18 +1,30 @@
 .sidebar ul {
-	display: block;
-	text-align: left;
-	background-color: white;
+	/* display: flex; */
+	flex-flow: column nowrap;
+	/* flex-wrap: wrap; */
 }
 
 .sidebar li {
-	display: inline-block;
-	justify-content: space-evenly;
-	flex-flow: row nowrap;
+	float: left;
 	list-style: none;
-	padding: 1px;
+	padding: 5px;
 	font-family: "futuraStdHeavy";
 	font-size: 1.2vw;
 	color: #e15829;
 	border-bottom: 3px solid black;
 	width: 100%;
+}
+
+.sidebar i {
+	float: right;
+}
+
+.sidebar li:hover:not(.active) {
+	background-color: #e15829;
+	color: white;
+}
+
+.sidebar li.active {
+	background-color: #e15829;
+	color: white;
 }

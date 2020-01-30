@@ -25,6 +25,7 @@ hr {
 	border: 0;
 	border-top: 3px solid black;
 	padding: 0;
+	width: 90%;
 }
 
 .column-left ul li {
