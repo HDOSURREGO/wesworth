@@ -1,5 +1,5 @@
 import React from "react";
-import "./CommercialServices.css";
+import "./Services.css";
 
 export default class CommercialServices extends React.Component {
 	render() {
