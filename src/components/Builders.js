@@ -9,7 +9,6 @@ export default class Builders extends React.Component {
 					<div>
 						<p>
 							Occaecat do laboris labore veniam occaecat velit aliqua labore non
-							aliquip ea.
 						</p>
 					</div>
 				</div>

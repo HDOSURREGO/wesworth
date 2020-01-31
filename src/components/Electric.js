@@ -3,8 +3,9 @@ import WesworthElectric from "./img/WElectric_transparente.png";
 import "./Electric.css";
 
 import ElectricSidebar from "./ElectricSidebar";
-import CommercialServices from "./CommercialServices";
-import IndustrialServices from "./IndustrialServices";
+// import CommercialServices from "./CommercialServices";
+// import IndustrialServices from "./IndustrialServices";
+import BuilderServices from "./BuilderServices";
 
 export default class Electric extends React.Component {
 	render() {
@@ -29,8 +30,9 @@ export default class Electric extends React.Component {
 				</div>
 				{/* Page content */}
 				<div class="service-content">
-					<CommercialServices />
+					{/* <CommercialServices /> */}
 					{/* <IndustrialServices /> */}
+					<BuilderServices />
 				</div>
 			</div>
 		);
