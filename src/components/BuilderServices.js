@@ -13,7 +13,7 @@ export default class BuilderServices extends React.Component {
 						<ul>
 							<li>Estimating</li>
 							<li>Value engineering</li>
-							<li>Preconstruction analysis and job layout</li>
+							<li>Pre-construction analysis and job layout</li>
 							<li>Rush services available</li>
 						</ul>
 						<h3>Construction Process</h3>
@@ -25,7 +25,7 @@ export default class BuilderServices extends React.Component {
 							<li>Licensed – insured – bonded</li>
 							<li>Quickly staff ramp up levels to meet project timetables</li>
 						</ul>
-						<h3>Post – Construction </h3>
+						<h3>Post – Construction</h3>
 						<ul>
 							<li>Warranty support</li>
 							<li>Predictive maintenance</li>
@@ -33,17 +33,20 @@ export default class BuilderServices extends React.Component {
 						</ul>
 					</div>
 					<div class="column-right"></div>
-					<h3>Emergency Services</h3>
-					<ul>
-						<li>Temporary generators</li> <li>Temporary power and cabling</li>
-						<li>Generator rentals</li>
-						<li>Pre-storm equipment check</li>
-						<li>Post-storm facilities + equipment check</li>
-						<p>
-							Count on Us 24/7. We will be there for you. Call Us – (954)
-							5804070
-						</p>
-					</ul>
+					<div>
+						<h3>Emergency Services</h3>
+						<ul>
+							<li>Temporary generators</li>
+							<li>Temporary power and cabling</li>
+							<li>Generator rentals</li>
+							<li>Pre-storm equipment check</li>
+							<li>Post-storm facilities + equipment check</li>
+							<p>
+								Count on Us 24/7. We will be there for you. Call Us – (954)
+								5804070
+							</p>
+						</ul>
+					</div>
 				</div>
 			</div>
 		);

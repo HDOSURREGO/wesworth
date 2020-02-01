@@ -26,6 +26,10 @@ export default class ElectricSidebar extends React.Component {
 						RESIDENCIAL SERVICES
 						<i class="fas fa-plus"></i>
 					</li>
+					<li>
+						LOGIN
+						<i class="fas fa-plus"></i>
+					</li>
 				</ul>
 			</div>
 		);
