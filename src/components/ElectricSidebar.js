@@ -27,7 +27,7 @@ export default class ElectricSidebar extends React.Component {
 						<i class="fas fa-plus"></i>
 					</li>
 					<li>
-						LOGIN
+						SCHEDULE A SERVICE CALL
 						<i class="fas fa-plus"></i>
 					</li>
 				</ul>

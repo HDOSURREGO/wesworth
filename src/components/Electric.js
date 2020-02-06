@@ -4,9 +4,10 @@ import "./Electric.css";
 
 import ElectricSidebar from "./ElectricSidebar";
 // import CommercialServices from "./CommercialServices";
-import ResidentialServices from "./ResidentialServices";
+// import ResidentialServices from "./ResidentialServices";
 // import IndustrialServices from "./IndustrialServices";
 // import BuilderServices from "./BuilderServices";
+import PropertyManagementServices from "./PropertyManagementServices";
 
 export default class Electric extends React.Component {
 	render() {
@@ -34,7 +35,8 @@ export default class Electric extends React.Component {
 					{/* <CommercialServices /> */}
 					{/* <IndustrialServices /> */}
 					{/* <BuilderServices /> */}
-					<ResidentialServices />
+					{/* <ResidentialServices /> */}
+					<PropertyManagementServices />
 				</div>
 			</div>
 		);
