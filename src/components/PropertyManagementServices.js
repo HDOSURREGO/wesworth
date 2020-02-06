@@ -16,12 +16,15 @@ export default class PropertyManagmentServices extends React.Component {
 							<li>Offline electrical testing</li> <li>Current analysis</li>
 							<li>Emergency and exit lights testing</li>
 							<li>Surge suppression devices</li>
+							<h3>Emergency Services</h3>
 							<p>
-								Emergency Services Electrical Failures are disruptive to your
-								business and it is always good to have someone to call. We will
-								be there for you 24/7. Call Us – (954) 5804070
+								Electrical Failures are disruptive to your business and it is
+								always good to have someone to call. We will be there for you
+								24/7. Call Us – (954) 5804070
 							</p>
 						</ul>
+
+						<h3>SCHEDULE A SERVICE CALL</h3>
 					</div>
 					<div class="column-right">
 						<ul>
