@@ -36,7 +36,7 @@ export default class Electric extends React.Component {
 					{/* <IndustrialServices /> */}
 					{/* <BuilderServices /> */}
 					{/* <ResidentialServices /> */}
-					<PropertyManagementServices />
+					<PropertyManagementServices isClicked={false} />
 				</div>
 			</div>
 		);

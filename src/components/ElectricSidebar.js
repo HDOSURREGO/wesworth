@@ -1,18 +1,23 @@
 import React from "react";
 import "./ElectricSidebar.css";
+import CommercialServices from "./CommercialServices";
+
+function turnOnCommercial() {
+	return <CommercialServices />;
+}
 
 export default class ElectricSidebar extends React.Component {
 	render() {
 		return (
 			<div className="sidebar">
 				<ul>
-					<li>
+					<li id="commercial" onClick={turnOnCommercial()}>
 						COMMERCIAL SERVICES
 						<i class="fas fa-plus"></i>
 					</li>
 					<li>
 						INDUSTRIAL SERVICES
-						<i class="fas fa-plus"></i>
+						<i id="industrial" class="fas fa-plus"></i>
 					</li>
 					<li>
 						BUILDER SERVICES

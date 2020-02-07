@@ -2,6 +2,12 @@ import React from "react";
 import "./Services.css";
 
 export default class PropertyManagmentServices extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			isActive: false
+		};
+	}
 	render() {
 		return (
 			<div className="service-wrapper">

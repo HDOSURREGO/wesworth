@@ -19,6 +19,11 @@
 	float: right;
 }
 
+.sidebar button {
+	float: right;
+	color: #e15829;
+}
+
 .sidebar li:hover:not(.active) {
 	background-color: #e15829;
 	color: white;
