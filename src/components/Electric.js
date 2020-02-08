@@ -1,15 +1,31 @@
 import React from "react";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import "./Electric.css";
-
 import ElectricSidebar from "./ElectricSidebar";
-// import CommercialServices from "./CommercialServices";
-// import ResidentialServices from "./ResidentialServices";
-// import IndustrialServices from "./IndustrialServices";
-// import BuilderServices from "./BuilderServices";
 import PropertyManagementServices from "./PropertyManagementServices";
+import CommercialServices from "./CommercialServices";
+import IndustrialServices from "./IndustrialServices";
+import ResidentialServices from "./ResidentialServices";
+import BuilderServices from "./BuilderServices";
 
 export default class Electric extends React.Component {
+	showServices = name => {
+		switch (name) {
+			case "commercial":
+				return <CommercialServices />;
+			case "industrial":
+				return <IndustrialServices />;
+			case "builders":
+				return <BuilderServices />;
+			case "residential":
+				return <ResidentialServices />;
+			case "property-manager":
+				return <PropertyManagementServices />;
+			default:
+				return <CommercialServices />;
+		}
+	};
+
 	render() {
 		return (
 			<div className="electric-wrapper">
@@ -32,11 +48,11 @@ export default class Electric extends React.Component {
 				</div>
 				{/* Page content */}
 				<div class="service-content">
-					{/* <CommercialServices /> */}
+					<CommercialServices />
 					{/* <IndustrialServices /> */}
 					{/* <BuilderServices /> */}
 					{/* <ResidentialServices /> */}
-					<PropertyManagementServices isClicked={false} />
+					{/* <PropertyManagementServices /> */}
 				</div>
 			</div>
 		);
