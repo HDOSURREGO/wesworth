@@ -9,21 +9,17 @@ import ResidentialServices from "./ResidentialServices";
 import BuilderServices from "./BuilderServices";
 
 export default class Electric extends React.Component {
-	showServices = name => {
-		switch (name) {
-			case "commercial":
-				return <CommercialServices />;
-			case "industrial":
-				return <IndustrialServices />;
-			case "builders":
-				return <BuilderServices />;
-			case "residential":
-				return <ResidentialServices />;
-			case "property-manager":
-				return <PropertyManagementServices />;
-			default:
-				return <CommercialServices />;
-		}
+	constructor(props) {
+		super(props);
+		this.state = {
+			serviceToShow: "commercial"
+		};
+	}
+
+	serviceFromSideBar = name => {
+		this.setState({
+			serviceToShow: name
+		});
 	};
 
 	render() {
@@ -44,15 +40,19 @@ export default class Electric extends React.Component {
 					</p>
 				</div>
 				<div className="electric-sidebar">
-					<ElectricSidebar />
+					<ElectricSidebar serviceBox={this.serviceFromSideBar} />
 				</div>
 				{/* Page content */}
 				<div class="service-content">
-					<CommercialServices />
-					{/* <IndustrialServices /> */}
-					{/* <BuilderServices /> */}
-					{/* <ResidentialServices /> */}
-					{/* <PropertyManagementServices /> */}
+					{this.state.serviceToShow === "commercial" && <CommercialServices />}
+					{this.state.serviceToShow === "industrial" && <IndustrialServices />}
+					{this.state.serviceToShow === "residential" && (
+						<ResidentialServices />
+					)}
+					{this.state.serviceToShow === "builder" && <BuilderServices />}
+					{this.state.serviceToShow === "property-management" && (
+						<PropertyManagementServices />
+					)}
 				</div>
 			</div>
 		);
