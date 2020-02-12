@@ -7,12 +7,13 @@ import CommercialServices from "./CommercialServices";
 import IndustrialServices from "./IndustrialServices";
 import ResidentialServices from "./ResidentialServices";
 import BuilderServices from "./BuilderServices";
+import ScheduleForm from "./ScheduleForm";
 
 export default class Electric extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			serviceToShow: "commercial"
+			serviceToShow: "schedule-form"
 		};
 	}
 
@@ -20,11 +21,15 @@ export default class Electric extends React.Component {
 		this.setState({
 			serviceToShow: name
 		});
+		console.log(
+			"Este es el servicio que voy a mostrar",
+			this.state.serviceToShow
+		);
 	};
 
 	render() {
 		return (
-			<div className="electric-wrapper">
+			<div>
 				<div className="electric-head">
 					<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
 					<p>
@@ -39,20 +44,27 @@ export default class Electric extends React.Component {
 						Service.
 					</p>
 				</div>
-				<div className="electric-sidebar">
-					<ElectricSidebar serviceBox={this.serviceFromSideBar} />
-				</div>
-				{/* Page content */}
-				<div class="service-content">
-					{this.state.serviceToShow === "commercial" && <CommercialServices />}
-					{this.state.serviceToShow === "industrial" && <IndustrialServices />}
-					{this.state.serviceToShow === "residential" && (
-						<ResidentialServices />
-					)}
-					{this.state.serviceToShow === "builder" && <BuilderServices />}
-					{this.state.serviceToShow === "property-management" && (
-						<PropertyManagementServices />
-					)}
+				<div className="side-services">
+					<div className="electric-sidebar">
+						<ElectricSidebar serviceBox={this.serviceFromSideBar} />
+					</div>
+					{/* Page content */}
+					<div class="service-content">
+						{this.state.serviceToShow === "commercial" && (
+							<CommercialServices />
+						)}
+						{this.state.serviceToShow === "industrial" && (
+							<IndustrialServices />
+						)}
+						{this.state.serviceToShow === "residential" && (
+							<ResidentialServices />
+						)}
+						{this.state.serviceToShow === "builder" && <BuilderServices />}
+						{this.state.serviceToShow === "property-management" && (
+							<PropertyManagementServices />
+						)}
+						{this.state.serviceToShow === "schedule-form" && <ScheduleForm />}
+					</div>
 				</div>
 			</div>
 		);

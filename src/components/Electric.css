@@ -2,6 +2,16 @@
 	margin: auto;
 }
 
+/* .side-services {
+	position: relative;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	background-color: white;
+	padding: 2%;
+	float: right;
+} */
+
 .electric-head {
 	display: flex;
 	flex-direction: row;
@@ -16,9 +26,10 @@
 	width: 10%;
 }
 
-.service-content {
-	justify-content: flex-end;
-}
+/* .service-content {
+	display: inline-flex;
+	max-width: 600;
+} */
 
 .column-left ul li {
 	font-family: "futuraStdBook";
