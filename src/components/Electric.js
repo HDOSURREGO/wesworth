@@ -9,6 +9,11 @@ import ResidentialServices from "./ResidentialServices";
 import BuilderServices from "./BuilderServices";
 import ScheduleForm from "./ScheduleForm";
 import CommercialServiceHead from "./CommercialServiceHead";
+import IndustrialServiceHead from "./IndustrialServiceHead";
+import BuilderServicesHead from "./BuilderServiceHead";
+import PropertyManagementServicesHead from "./PropertyManagementServicesHead";
+import ResidentialServicesHead from "./ResidentialServicesHead";
+import ScheduleFormHead from "./ScheduleFormHead";
 
 export default class Electric extends React.Component {
 	constructor(props) {
@@ -34,6 +39,11 @@ export default class Electric extends React.Component {
 				<div className="centralImageElectric">
 					<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
 					<label>WESWORTH ELECTRIC</label>
+					{console.log(
+						"Este es el servicio que voy a mostrar antes de mostrar who we are",
+						this.state.serviceToShow
+					)}
+					;
 				</div>
 				<div className="whoWeAre">
 					<label>WHO WE ARE</label>
@@ -50,7 +60,20 @@ export default class Electric extends React.Component {
 					</p>
 				</div>
 				<div>
-					<CommercialServiceHead />
+					{this.state.serviceToShow === "commercial" && (
+						<CommercialServiceHead />
+					)}
+					{this.state.serviceToShow === "industrial" && (
+						<IndustrialServiceHead />
+					)}
+					{this.state.serviceToShow === "builder" && <BuilderServicesHead />}
+					{this.state.serviceToShow === "property-management" && (
+						<PropertyManagementServicesHead />
+					)}
+					{this.state.serviceToShow === "residential" && (
+						<ResidentialServicesHead />
+					)}
+					{this.state.serviceToShow === "schedule-form" && <ScheduleFormHead />}
 				</div>
 				<div className="side-services">
 					<div className="electric-sidebar">

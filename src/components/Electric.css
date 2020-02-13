@@ -54,20 +54,20 @@
 /* The side navigation menu */
 .sidebar {
 	margin-left: 10px;
-	/* padding: 0; */
+	padding: 20px 0px 0px 0px;
 	width: 300px;
 	/* background-color: green; */
-	position: absolute;
-	height: 100%;
+	/* position: absolute; */
+	/* height: 100%; */
 	/* overflow: auto; */
 }
 
 .electric-sidebar {
-	padding: 60px 10px 10px 10px;
+	padding: 20px 10px 10px 10px;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.service-content {
+.service-content {
 	display: flex;
 	flex-direction: row;
 	margin-left: 300px;
@@ -90,7 +90,7 @@ div.service-content {
 	font-size: small;
 	padding: 5px;
 }
-h6 {
+/* h6 {
 	font-family: "helveticaNeueLTStdRoman";
 	font-size: small;
-}
+} */
