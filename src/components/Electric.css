@@ -1,16 +1,7 @@
 .body {
 	margin: auto;
+	max-width: 1000em;
 }
-
-/* .side-services {
-	position: relative;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	background-color: white;
-	padding: 2%;
-	float: right;
-} */
 
 .electric-head {
 	display: flex;
@@ -21,30 +12,43 @@
 	padding: 2%;
 }
 
-.electric-head img {
-	display: inline-block;
-	width: 10%;
+.centralImageElectric {
+	position: relative;
+	text-align: center;
+	color: white;
+	background: #404041;
 }
 
-/* .service-content {
-	display: inline-flex;
-	max-width: 600;
-} */
-
-.column-left ul li {
-	font-family: "futuraStdBook";
-	font-size: small;
+.centralImageElectric label {
+	position: absolute;
+	text-align: right;
+	padding-right: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, -50%);
+	font-family: futuraStdHeavy;
+	font-size: 6vw;
+	color: #e15829;
 }
 
-.column-right {
-	font-family: "futuraStdBook";
-	font-size: small;
+.whoWeAre {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row;
+	padding: 100px;
 }
 
-.column-left p {
-	font-family: "futuraStdBook";
-	font-size: small;
-	padding: 5px;
+.whoWeAre label {
+	font-family: futuraStdHeavy;
+	font-size: 5vw;
+	color: #e15829;
+}
+
+.whoWeAre p {
+	width: 50%;
+	font-size: 1.125vw;
 }
 
 /* The side navigation menu */
@@ -65,4 +69,24 @@ div.service-content {
 	margin-left: 300px;
 	padding: 0px 0px 10px 50px;
 	height: 100%;
+}
+/* Content */
+.column-left ul li {
+	font-family: "futuraStdBook";
+	font-size: small;
+}
+
+.column-right {
+	font-family: "futuraStdBook";
+	font-size: small;
+}
+
+.column-left p {
+	font-family: "futuraStdBook";
+	font-size: small;
+	padding: 5px;
+}
+h6 {
+	font-family: "helveticaNeueLTStdRoman";
+	font-size: small;
 }

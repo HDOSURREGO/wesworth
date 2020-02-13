@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import WesworthElectric from "./img/WElectric_transparente.png";
 
 export default class CommercialServices extends React.Component {
 	constructor(props) {
@@ -11,6 +12,8 @@ export default class CommercialServices extends React.Component {
 	render() {
 		return (
 			<div className="service-wrapper">
+				<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
+
 				<h2>COMMERCIAL SERVICES</h2>
 				<hr />
 				<div class="commercial-services">

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Services.css";
+import "./ScheduleForm.css";
 
 export default class ScheduleForm extends Component {
 	render() {
@@ -10,21 +10,27 @@ export default class ScheduleForm extends Component {
 					<div>
 						<form className="contact-form">
 							<div className="form-group">
-								<label htmlFor="name">Company Name</label>
+								<h3 htmlFor="name">Company Name</h3>
 								<input type="text" className="form-input" />
 							</div>
 							<div className="form-group">
-								<label htmlFor="name">Person to Contact</label>
+								<h3 htmlFor="name">Person to Contact</h3>
 								<input type="text" className="form-input" />
-								<label htmlFor="name">Company Contact Phone</label>
-								<input type="text" className="form-input" />
-							</div>
-							<div className="form-group">
-								<label htmlFor="name">Street Address</label>
+								<h3 htmlFor="name">Company Contact Phone</h3>
 								<input type="text" className="form-input" />
 							</div>
 							<div className="form-group">
-								<label htmlFor="exampleInputEmail1">Email address</label>
+								<h3 htmlFor="name">Street Address</h3>
+								<input type="text" className="street-address" />
+								<h3 htmlFor="name">City</h3>
+								<input type="text" className="city-address" />
+								<h3 htmlFor="name">State</h3>
+								<input type="text" className="state-address" value="Florida" />
+								<h3 htmlFor="name">Zip Code</h3>
+								<input type="text" className="zipcode-address" />
+							</div>
+							<div className="form-group">
+								<h3 htmlFor="exampleInputEmail1">Email address</h3>
 								<input
 									type="email"
 									className="form-input"
@@ -32,7 +38,7 @@ export default class ScheduleForm extends Component {
 								/>
 							</div>
 							<div className="form-group">
-								<label htmlFor="message">Job/Issue Description</label>
+								<h3 htmlFor="message">Job/Issue Description</h3>
 								<textarea className="form-input" rows="5"></textarea>
 							</div>
 						</form>

@@ -1,5 +1,5 @@
 import React from "react";
-import WesworthElectric from "./img/WElectric_transparente.png";
+import WEBackground from "./img/wesworth-building-render-50opacity.jpg";
 import "./Electric.css";
 import ElectricSidebar from "./ElectricSidebar";
 import PropertyManagementServices from "./PropertyManagementServices";
@@ -30,8 +30,12 @@ export default class Electric extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="electric-head">
-					<img src={WesworthElectric} alt="Wesworth-Electric" width="25%" />
+				<div className="centralImageElectric">
+					<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
+					<label>WESWORTH ELECTRIC</label>
+				</div>
+				<div className="whoWeAre">
+					<label>WHO WE ARE</label>
 					<p>
 						Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with the
 						basic objective of serving his community with a great quality and a
