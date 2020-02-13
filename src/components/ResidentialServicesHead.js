@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./CommercialServiceHead.css";
 import WesworthElectric from "./img/WElectric_transparente.png";
-import ResidentialServiceBackground from "./img/residential_services.jpg";
+import ResidentialServiceBackground from "./img/residential_services_2.jpg";
 
 export default class ResidentialServicesHead extends Component {
 	render() {

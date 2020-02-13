@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./CommercialServiceHead.css";
+import "./BuilderServiceHead.css";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import BuilderServiceBackground from "./img/builder_services_cmyk_50opacity.jpg";
 
@@ -16,12 +16,12 @@ export default class BuilderServiceHead extends Component {
 					/>
 					<img
 						src={BuilderServiceBackground}
-						alt="Commercial-Services"
+						alt="builder-services"
 						width="100%"
-						className="commercial-background"
+						className="builder-background"
 					/>
-					<label className="commercial-head-text-top">BUILDER</label>
-					<label className="commercial-head-text-bottom">SERVICES</label>
+					<label className="builder-head-text-top">BUILDER</label>
+					<label className="builder-head-text-bottom">SERVICES</label>
 				</div>
 				<div>
 					<hr />

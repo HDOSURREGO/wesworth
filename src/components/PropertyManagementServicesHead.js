@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./CommercialServiceHead.css";
+import "./PropertyManagementServicesHead.css";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import PropertyManagementServiceBackground from "./img/property_management_services_cmyk_50opacity.jpg";
 
@@ -18,12 +18,14 @@ export default class PropertyManagementServicesHead extends Component {
 						src={PropertyManagementServiceBackground}
 						alt="Commercial-Services"
 						width="100%"
-						className="commercial-background"
+						className="property-management-background"
 					/>
-					<label className="commercial-head-text-top">
+					<label className="property-management-head-text-top">
 						PROPERTY MANAGEMENT
 					</label>
-					<label className="commercial-head-text-bottom">SERVICES</label>
+					<label className="property-management-head-text-bottom">
+						SERVICES
+					</label>
 				</div>
 				<div>
 					<hr />

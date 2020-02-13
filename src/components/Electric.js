@@ -39,11 +39,6 @@ export default class Electric extends React.Component {
 				<div className="centralImageElectric">
 					<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
 					<label>WESWORTH ELECTRIC</label>
-					{console.log(
-						"Este es el servicio que voy a mostrar antes de mostrar who we are",
-						this.state.serviceToShow
-					)}
-					;
 				</div>
 				<div className="whoWeAre">
 					<label>WHO WE ARE</label>
@@ -66,13 +61,13 @@ export default class Electric extends React.Component {
 					{this.state.serviceToShow === "industrial" && (
 						<IndustrialServiceHead />
 					)}
-					{this.state.serviceToShow === "builder" && <BuilderServicesHead />}
-					{this.state.serviceToShow === "property-management" && (
-						<PropertyManagementServicesHead />
-					)}
 					{this.state.serviceToShow === "residential" && (
 						<ResidentialServicesHead />
 					)}
+					{this.state.serviceToShow === "property-management" && (
+						<PropertyManagementServicesHead />
+					)}
+					{this.state.serviceToShow === "builder" && <BuilderServicesHead />}
 					{this.state.serviceToShow === "schedule-form" && <ScheduleFormHead />}
 				</div>
 				<div className="side-services">

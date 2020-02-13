@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./IndustrialServices.css";
 
 export default class IndustrialServices extends React.Component {
 	render() {

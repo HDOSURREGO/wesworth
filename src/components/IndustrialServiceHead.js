@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./CommercialServiceHead.css";
+import "./IndustrialServiceHead.css";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import IndustrialServiceBackground from "./img/industrial_services_composition_50opacity.jpg";
 
@@ -16,12 +16,12 @@ export default class IndustrialServiceHead extends Component {
 					/>
 					<img
 						src={IndustrialServiceBackground}
-						alt="Commercial-Services"
+						alt="industrial-services"
 						width="100%"
-						className="commercial-background"
+						className="industrial-background"
 					/>
-					<label className="commercial-head-text-top">INDUSTRIAL</label>
-					<label className="commercial-head-text-bottom">SERVICES</label>
+					<label className="industrial-head-text-top">INDUSTRIAL</label>
+					<label className="industrial-head-text-bottom">SERVICES</label>
 				</div>
 				<div>
 					<hr />

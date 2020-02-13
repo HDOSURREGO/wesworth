@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./BuilderServices.css";
 
 export default class BuilderServices extends React.Component {
 	render() {

@@ -1,16 +1,8 @@
-.service-head {
-	width: 100%;
-	position: relative;
-	text-align: center;
-	color: white;
-	background: #404041;
-}
-
 .commercial-services {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
-	padding: 60px 20px 20px 20px;
+	padding: 20px;
 }
 
 .service-wrapper h3 {
@@ -23,12 +15,11 @@
 
 .service-wrapper h2 {
 	text-align: left;
-	padding: 1% 0% 0%;
+	padding: 1%;
 	font-family: "futuraStdHeavy";
 	font-size: 1.2vw;
 	color: #e15829;
 }
-
 hr {
 	display: block;
 	height: 1px;
@@ -42,16 +33,16 @@ hr {
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	line-height: 1.3;
-	width: 90%;
+	width: 100%;
 	text-align: justify;
 	padding-bottom: 1%;
 }
 
 .column-left p {
 	font-family: "futuraStdBook";
-	font-size: 5vw;
+	font-size: 1vw;
 	line-height: 1.3;
-	width: 90%;
+	width: 100%;
 	text-align: justify;
 	padding-bottom: 1%;
 }
