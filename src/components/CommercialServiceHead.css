@@ -1,0 +1,36 @@
+.commercial-background img {
+	width: 10%;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: white;
+}
+
+.logoWE {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	z-index: 2;
+}
+
+.commercial-head-text-top {
+	position: absolute;
+	text-align: right;
+	padding-right: 50px;
+	top: 95%;
+	left: 50%;
+	transform: translate(30%, -50%);
+	font-family: futuraStdBook;
+	font-size: 4vw;
+}
+
+.commercial-head-text-bottom {
+	position: absolute;
+	bottom: -5%;
+	right: 24%;
+	transform: translate(50%, 50%);
+	font-family: futuraStdBook;
+	font-size: 4vw;
+	color: #e15829;
+}

@@ -8,12 +8,13 @@ import IndustrialServices from "./IndustrialServices";
 import ResidentialServices from "./ResidentialServices";
 import BuilderServices from "./BuilderServices";
 import ScheduleForm from "./ScheduleForm";
+import CommercialServiceHead from "./CommercialServiceHead";
 
 export default class Electric extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			serviceToShow: "schedule-form"
+			serviceToShow: "commercial"
 		};
 	}
 
@@ -47,6 +48,9 @@ export default class Electric extends React.Component {
 						principles we were founded on: Great Quality and Excellent Customer
 						Service.
 					</p>
+				</div>
+				<div>
+					<CommercialServiceHead />
 				</div>
 				<div className="side-services">
 					<div className="electric-sidebar">
