@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./PropertyManagementServices.css";
 
 export default class PropertyManagmentServices extends React.Component {
 	constructor(props) {
@@ -30,7 +30,7 @@ export default class PropertyManagmentServices extends React.Component {
 							</p>
 						</ul>
 
-						<h3>SCHEDULE A SERVICE CALL</h3>
+						{/* <h3>SCHEDULE A SERVICE CALL</h3> */}
 					</div>
 					<div class="column-right">
 						<ul>

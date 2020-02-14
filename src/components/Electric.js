@@ -19,7 +19,7 @@ export default class Electric extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			serviceToShow: "commercial"
+			serviceToShow: "schedule-form"
 		};
 	}
 

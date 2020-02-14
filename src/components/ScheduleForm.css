@@ -1,13 +1,14 @@
 .serviceCall {
+	width: 100%;
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	color: #e15829;
 }
-h2 {
+.serviceCall h1 {
 	text-align: left;
-	padding: 0%;
+	padding: 10%;
 	font-family: "futuraStdHeavy";
-	font-size: 1.2vw;
+	font-size: 1.6vw;
 	color: #e15829;
 }
 
