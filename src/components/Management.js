@@ -1,17 +1,17 @@
 import React from "react";
+import WesworthManagementBackground from "./img/management-under-construction.jpg";
 
-export default class Management extends React.Component {
+export default class Builders extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>
-					<h1>MANAGEMENT</h1>
-					<div>
-						<p>
-							Occaecat do laboris labore veniam occaecat velit aliqua labore non
-							aliquip ea.
-						</p>
-					</div>
+				<div className="centralBanner">
+					<img
+						className="wcgBackground"
+						src={WesworthManagementBackground}
+						alt="WesworthConstructionBackground"
+						width="100%"
+					/>
 				</div>
 			</div>
 		);
