@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./CommercialServiceHead.css";
+import "./ResidentialServicesHead.css";
 import WesworthElectric from "./img/WElectric_transparente.png";
 import ResidentialServiceBackground from "./img/residential_services_2.jpg";
 
@@ -16,12 +16,12 @@ export default class ResidentialServicesHead extends Component {
 					/>
 					<img
 						src={ResidentialServiceBackground}
-						alt="Commercial-Services"
+						alt="residential-Services"
 						width="100%"
-						className="commercial-background"
+						className="residential-background"
 					/>
-					<label className="commercial-head-text-top">RESIDENTIAL</label>
-					<label className="commercial-head-text-bottom">SERVICES</label>
+					<label className="residential-head-text-top">RESIDENTIAL</label>
+					<label className="residential-head-text-bottom">SERVICES</label>
 				</div>
 				<div>
 					<hr />

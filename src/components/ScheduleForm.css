@@ -6,30 +6,53 @@
 }
 .serviceCall h1 {
 	text-align: left;
-	padding: 10%;
+	padding: 0%;
 	font-family: "futuraStdHeavy";
 	font-size: 1.6vw;
 	color: #e15829;
 }
 
-h3 {
+.form-section {
+	width: 100%;
+	padding: 0%;
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: left;
+}
+
+.input-field {
+	background-color: transparent;
+	width: 600px;
+	padding: 10px 2px 10px 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+}
+
+.textarea [name="job-description"] {
+	resize: none;
+}
+
+.form-section h3 {
 	text-align: left;
 	padding: 1%;
 	font-family: "futuraStdHeavy";
-	font-size: 1.2vw;
+	font-size: 1.1vw;
 	color: #e15829;
 }
 
-btn {
+.contact-form .btn {
 	display: inline-block;
 	background-color: transparent;
-	color: white;
+	color: #e15829;
 	width: 30%;
 	padding: 10px 10px 10px 0px;
-	border: 1px solid white;
+	border: 1px solid black;
 	margin: 10px;
 	border-radius: 5px;
-	font-family: "futuraStdBook";
-	font-size: 1vw;
+	font-family: "futuraStdHeavy";
+	font-size: 1.1vw;
 	text-align: center;
 }

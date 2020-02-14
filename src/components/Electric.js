@@ -19,7 +19,7 @@ export default class Electric extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			serviceToShow: "schedule-form"
+			serviceToShow: "commercial"
 		};
 	}
 
@@ -35,7 +35,7 @@ export default class Electric extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div className="electric-wrapper">
 				<div className="centralImageElectric">
 					<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
 					<label>WESWORTH ELECTRIC</label>
