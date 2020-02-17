@@ -25,7 +25,7 @@ export default class ScheduleForm extends Component {
 		console.log("This is the state after reading the form", this.state);
 	}
 
-	handleSubmitTimelineName(event) {
+	handleSubmitScheduleForm(event) {
 		event.preventDefault();
 		axios({
 			method: "POST",
@@ -67,6 +67,7 @@ export default class ScheduleForm extends Component {
 		this.setState({
 			companyName: " ",
 			personToContact: " ",
+			contactPhone: "",
 			streetAddress: "",
 			city: "",
 			state: "Florida",
@@ -80,14 +81,12 @@ export default class ScheduleForm extends Component {
 		return (
 			<div>
 				<div className="serviceCall">
-					{/* <h1>SCHEDULE A SERVICE CALL</h1> */}
 					<div>
 						<form
 							className="contact-form"
 							onSubmit={event => this.handleSubmitScheduleForm(event)}
 							method="POST"
 						>
-							>
 							<div className="form-section">
 								<h3 htmlFor="company-name">Company Name</h3>
 								<input
