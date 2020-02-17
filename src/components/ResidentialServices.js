@@ -19,9 +19,9 @@ export default class ResidentialServices extends React.Component {
 							<li>Infrared thermal scanning</li>
 							<li>Next day service guaranteed</li>
 							<h3>Emergency Services</h3>
+							<p>Electrical Failures can take us out of our comfort zone</p>
 							<p>
-								Electrical Failures can take us out of our comfort zone and it
-								is always good to have someone to call when this happen.
+								and it is always good to have someone to call when this happen.
 							</p>
 							<li>Power outages</li>
 							<li>Equipment failure</li> <li>Temporary generators</li>

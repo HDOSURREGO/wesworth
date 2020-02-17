@@ -24,16 +24,13 @@ export default class Home extends React.Component {
 				<div className="aboutUS">
 					<h1>ABOUT US</h1>
 					<p>
-						Wesworth Construction Group is the result of a group of experiences
-						we have had in the past. A state licensed electrical contractor in
-						Florida, was founded in 1981 by Wesley Shreve with the basic
-						objective of serving his community with great quality and excellent
-						customer service. Over the years Wesworth Electric has evolved the
-						array of services it offers, from residential to high voltage and
-						complex industrial installations. Nowadays, Wesworth Electric is a
-						division of Wesworth Construction Group spanning customers in two
-						states, and still keeping the basic principles it was founded on:
-						Great Quality and Excellent Customer Service.
+						Wesworth Construction Group is comprised of three companies:
+						Wesworth Electric, Wesworth Builders and Wesworth Management. We are
+						proud to be trusted advisors and partners to our clients and
+						investors as we perform development, construction, and property
+						management. We offer our services based always on our core values:
+						honesty, integrity, passion, and commitment, to guarantee success in
+						all endeavours we got in. Welcome to our site.
 					</p>
 				</div>
 				<div className="whatWeDo">

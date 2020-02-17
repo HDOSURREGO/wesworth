@@ -1,16 +1,8 @@
-.service-head {
-	width: 100%;
-	position: relative;
-	text-align: center;
-	color: white;
-	background: #404041;
-}
-
-.commercial-services {
+.property-services {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
-	padding: 60px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 .service-wrapper h3 {
@@ -38,7 +30,8 @@ hr {
 	width: 90%;
 }
 
-.column-left ul li {
+.property-services .column-left ul li {
+	padding: 0px 100px 0px 0px;
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	line-height: 1.3;
@@ -48,10 +41,10 @@ hr {
 }
 
 .column-left p {
+	padding: 0px 100px 0px 0px;
 	font-family: "futuraStdBook";
-	font-size: 5vw;
+	font-size: 1vw;
 	line-height: 1.3;
-	width: 90%;
 	text-align: justify;
 	padding-bottom: 1%;
 }
@@ -59,7 +52,7 @@ hr {
 .column-right {
 	font-family: "futuraStdBook";
 	font-size: 1vw;
-	line-height: 1.6;
+	line-height: 1.3;
 	width: 50%;
 	padding-bottom: 1%;
 }

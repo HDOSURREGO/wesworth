@@ -7,7 +7,7 @@ export default class IndustrialServices extends React.Component {
 			<div className="service-wrapper">
 				<h2>INDUSTRIAL SERVICES</h2>
 				<hr />
-				<div class="commercial-services">
+				<div class="industrial-services">
 					<div class="column-left">
 						<h3>Design + Engineering and Integration Services</h3>
 						<ul>

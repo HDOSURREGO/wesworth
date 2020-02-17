@@ -7,7 +7,7 @@ export default class BuilderServices extends React.Component {
 			<div className="service-wrapper">
 				<h2>BUILDER SERVICES</h2>
 				<hr />
-				<div class="commercial-services">
+				<div class="builder-services">
 					<div class="column-left">
 						<h3>Pre-construction</h3>
 						<ul>

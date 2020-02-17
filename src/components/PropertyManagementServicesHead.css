@@ -1,3 +1,11 @@
+.service-head {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	color: white;
+	background: #404041;
+}
+
 .property-management-background img {
 	width: 10%;
 	position: relative;

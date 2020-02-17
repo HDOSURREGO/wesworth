@@ -1,4 +1,4 @@
-.commercial-services {
+.builder-services {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
@@ -33,8 +33,7 @@ hr {
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	line-height: 1.3;
-	width: 100%;
-	text-align: justify;
+	text-align: left;
 	padding-bottom: 1%;
 }
 
@@ -54,12 +53,19 @@ hr {
 	width: 50%;
 	padding-bottom: 1%;
 }
+.column-right ul li {
+	font-family: "futuraStdBook";
+	font-size: 1vw;
+	line-height: 1.6;
+	text-align: left;
+	padding-bottom: 2%;
+}
 
 .column-right p {
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	line-height: 1.3;
-	width: 50%;
+	width: 70%;
 	text-align: justify;
 	padding-bottom: 1%;
 }

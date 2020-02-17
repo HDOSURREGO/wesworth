@@ -13,7 +13,7 @@ export default class PropertyManagmentServices extends React.Component {
 			<div className="service-wrapper">
 				<h2>PROPERTY MANAGEMENT SERVICES</h2>
 				<hr />
-				<div class="commercial-services">
+				<div class="property-services">
 					<div class="column-left">
 						<h3>Predictive Maintenance</h3>
 						<ul>
@@ -23,11 +23,9 @@ export default class PropertyManagmentServices extends React.Component {
 							<li>Emergency and exit lights testing</li>
 							<li>Surge suppression devices</li>
 							<h3>Emergency Services</h3>
-							<p>
-								Electrical Failures are disruptive to your business and it is
-								always good to have someone to call. We will be there for you
-								24/7. Call Us – (954) 5804070
-							</p>
+							<p>Electrical Failures are disruptive to your business</p>
+							<p>and it is always good to have someone to call.</p>
+							<p> We will be there for you 24/7. Call Us – (954) 5804070</p>
 						</ul>
 
 						{/* <h3>SCHEDULE A SERVICE CALL</h3> */}

@@ -29,10 +29,8 @@ export default class CommercialServices extends React.Component {
 							<li>Improve operator safety</li>
 						</ul>
 						<h3>Emergency Services</h3>
-						<p>
-							Electrical failures are disruptive to your business and it is
-							always good to have someone to call
-						</p>
+						<p>Electrical failures are disruptive to your business</p>
+						<p>and it is always good to have someone to call</p>
 						<p>We will be there for you 24/7 Call us - (954) 580 4070</p>
 					</div>
 					<div class="column-right">

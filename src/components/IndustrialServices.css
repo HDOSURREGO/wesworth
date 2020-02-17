@@ -1,4 +1,4 @@
-.commercial-services {
+.industrial-services {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
@@ -30,6 +30,7 @@ hr {
 }
 
 .column-left ul li {
+	padding: 0px 100px 0px 0px;
 	font-family: "futuraStdBook";
 	font-size: 1vw;
 	line-height: 1.3;
