@@ -17,6 +17,7 @@ export default class ScheduleForm extends Component {
 			message: ""
 		};
 		this.resetForm = this.resetForm.bind(this);
+		this.handleSubmitScheduleForm = this.handleSubmitScheduleForm.bind(this);
 	}
 
 	genericSync(event) {
@@ -29,38 +30,17 @@ export default class ScheduleForm extends Component {
 		event.preventDefault();
 		axios({
 			method: "POST",
-			url: "http://localhost:3000/send",
+			url: "/electric/send",
 			data: this.state
 		}).then(response => {
 			if (response.data.status === "success") {
-				alert("Message Sent.");
+				console.log("Message Sent.");
+				console.log(this.state);
 				this.resetForm();
 			} else if (response.data.status === "fail") {
-				alert("Message failed to send.");
+				console.log("Message failed to send.");
 			}
 		});
-		// axios
-		// 	.post(
-		// 		// route we are hitting in the backend
-		// 		`${process.env.REACT_APP_API_URL}/timeline/create`,
-		// 		// the data from the form (AKA req.body 🚀) that we are sending to this route to do the job
-		// 		this.state,
-		// 		// secure sending
-		// 		{ withCredentials: true }
-		// 	)
-		// 	.then(responseFromServer => {
-		// 		console.log(
-		// 			"Esto fue lo que volvio del servidor:",
-		// 			responseFromServer.data,
-		// 			this.state
-		// 		);
-
-		// 		let timelineArray = this.state.timelines ? this.state.timelines : [];
-		// 		timelineArray.push(responseFromServer.data);
-
-		// 		this.setState({ timelines: timelineArray });
-		// 	})
-		// 	.catch(err => console.log("Err in timeline creation: ", err));
 	}
 
 	resetForm() {
