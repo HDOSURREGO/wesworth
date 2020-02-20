@@ -30,12 +30,12 @@ export default class ScheduleForm extends Component {
 		event.preventDefault();
 		axios({
 			method: "POST",
-			url: "/electric/send",
+			url: "http://localhost:3001/electric/send",
 			data: this.state
 		}).then(response => {
 			if (response.data.status === "success") {
 				console.log("Message Sent.");
-				console.log(this.state);
+				console.log("luego de enviar al backend", this.state);
 				this.resetForm();
 			} else if (response.data.status === "fail") {
 				console.log("Message failed to send.");
@@ -161,5 +161,4 @@ export default class ScheduleForm extends Component {
 			</div>
 		);
 	}
-	s;
 }
