@@ -6,7 +6,6 @@ import Home from "./components/Home";
 import Electric from "./components/Electric";
 import Builders from "./components/Builders";
 import Management from "./components/Management";
-import MailInfo from "./components/MailInfo";
 
 class App extends React.Component {
 	constructor(props) {
@@ -28,7 +27,6 @@ class App extends React.Component {
 						<Route exact path="/electric" component={Electric} />
 						<Route exact path="/builders" component={Builders} />
 						<Route exact path="/management" component={Management} />
-						<Route exact path="/electric/send" component={MailInfo} />
 					</Switch>
 				</div>
 				<div>
