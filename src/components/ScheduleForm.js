@@ -30,7 +30,7 @@ export default class ScheduleForm extends Component {
 		event.preventDefault();
 		axios({
 			method: "POST",
-			url: "http://localhost:3001/electric/send",
+			url: "/electric/send",
 			data: this.state
 		}).then(response => {
 			if (response.data.status === "success") {
