@@ -36,7 +36,7 @@
 	font-size: 1vw;
 }
 
-.btn {
+.button .btn {
 	display: inline-block;
 	background-color: transparent;
 	color: white;

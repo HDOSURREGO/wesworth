@@ -6,18 +6,74 @@ import Home from "./Home";
 import Electric from "./Electric";
 import Builders from "./Builders";
 import Management from "./Management";
+import axios from "axios";
 
 export default class Footer extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			nameFromContactUs: "",
+			emailAddress: "",
+			message: ""
+		};
+		this.resetForm = this.resetForm.bind(this);
+		this.handleSubmitScheduleForm = this.handleSubmitScheduleForm.bind(this);
+	}
+
+	genericSync(event) {
+		const { name, value } = event.target;
+		this.setState({ [name]: value });
+		console.log(
+			"This is the state after reading the form Contact Us",
+			this.state
+		);
+	}
+
+	handleSubmitScheduleForm(event) {
+		event.preventDefault();
+		axios({
+			method: "POST",
+			url: "http://localhost:5000/contactUs",
+			data: this.state
+		}).then(response => {
+			if (response.data.status === "success") {
+				console.log("Message Sent from Contact Us Form.");
+				console.log("luego de enviar al backend", this.state);
+				this.resetForm();
+			} else if (response.data.status === "fail") {
+				console.log("Message failed to send.");
+			}
+		});
+	}
+
+	resetForm() {
+		this.setState({
+			nameFromContactUs: " ",
+			emailAddress: " ",
+			message: " "
+		});
+	}
+
 	render() {
 		return (
 			<div>
 				<div className="contactUsForm">
 					<h1>CONTACT US</h1>
 					<div>
-						<form className="contact-form">
+						<form
+							className="contact-form"
+							onSubmit={event => this.handleSubmitScheduleForm(event)}
+							method="POST"
+						>
 							<div className="form-group">
-								<label htmlFor="name">Name</label>
-								<input type="text" className="form-input" />
+								<label htmlFor="nameFromContactUs">Name</label>
+								<input
+									type="text"
+									className="form-input"
+									name="nameFromContactUs"
+									value={this.state.nameFromContactUs}
+									onChange={event => this.genericSync(event)}
+								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="exampleInputEmail1">Email address</label>
@@ -25,19 +81,28 @@ export default class Footer extends React.Component {
 									type="email"
 									className="form-input"
 									aria-describedby="emailHelp"
+									name="emailAddress"
+									value={this.state.emailAddress}
+									onChange={event => this.genericSync(event)}
 								/>
 							</div>
 							<div className="form-group">
 								<label htmlFor="message">Message</label>
-								<textarea className="form-input" rows="5"></textarea>
+								<textarea
+									className="form-input"
+									rows="5"
+									name="message"
+									value={this.state.message}
+									onChange={event => this.genericSync(event)}
+								></textarea>
 							</div>
+							<button type="submit" className="btn">
+								Submit
+							</button>
+							<button type="submit" className="btn" onClick={this.resetForm}>
+								Clear Form
+							</button>
 						</form>
-						<button type="submit" className="btn">
-							Submit
-						</button>
-						<button type="submit" className="btn">
-							Clear Form
-						</button>
 					</div>
 				</div>
 				<div className="footer">
