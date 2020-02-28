@@ -1,13 +1,9 @@
 .sidebar {
-	position: sticky;
-	padding-top: 30px;
 	width: 300px;
 }
 
 .sidebar ul {
-	/* display: flex; */
 	flex-flow: column nowrap;
-	/* flex-wrap: wrap; */
 }
 
 .sidebar li {
@@ -43,7 +39,12 @@
 	color: white;
 }
 
-.sidebar li.active {
+button:focus {
+	background-color: #e15829;
+	color: white;
+}
+
+li:focus {
 	background-color: #e15829;
 	color: white;
 }

@@ -7,23 +7,38 @@ export default class ElectricSidebar extends React.Component {
 			<div>
 				<div className="sidebar">
 					<ul>
-						<li onClick={() => this.props.serviceBox("commercial")}>
+						<li
+							className="sidebar-service"
+							onClick={() => this.props.serviceBox("commercial")}
+						>
 							COMMERCIAL SERVICES
 							<i class="fas fa-plus"></i>
 						</li>
-						<li onClick={() => this.props.serviceBox("industrial")}>
+						<li
+							className="sidebar-service"
+							onClick={() => this.props.serviceBox("industrial")}
+						>
 							INDUSTRIAL SERVICES
 							<i id="industrial" class="fas fa-plus"></i>
 						</li>
-						<li onClick={() => this.props.serviceBox("builder")}>
+						<li
+							className="sidebar-service"
+							onClick={() => this.props.serviceBox("builder")}
+						>
 							BUILDER SERVICES
 							<i class="fas fa-plus"></i>
 						</li>
-						<li onClick={() => this.props.serviceBox("property-management")}>
+						<li
+							className="sidebar-service"
+							onClick={() => this.props.serviceBox("property-management")}
+						>
 							PROPERTY MANAGEMENT SERVICES
 							<i class="fas fa-plus"></i>
 						</li>
-						<li onClick={() => this.props.serviceBox("residential")}>
+						<li
+							className="sidebar-service"
+							onClick={() => this.props.serviceBox("residential")}
+						>
 							RESIDENTIAL SERVICES
 							<i class="fas fa-plus"></i>
 						</li>
