@@ -50,29 +50,31 @@
 	font-size: 1.125vw;
 }
 
-/* The side navigation menu */
-.sidebar {
-	margin-left: 10px;
-	padding: 20px 0px 0px 0px;
-	width: 300px;
-	/* background-color: green; */
-	/* position: absolute; */
-	/* height: 100%; */
-	/* overflow: auto; */
+.side-services {
+	width: 100%;
+	margin: auto;
 }
 
 .electric-sidebar {
 	padding: 20px 10px 10px 10px;
+	margin-left: 10px;
+	padding: 20px 0px 0px 0px;
+	width: 300px;
+	float: left;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .service-content {
-	display: flex;
-	flex-direction: row;
 	margin-left: 300px;
 	padding: 0px 0px 10px 50px;
 	height: 100%;
+	float: left;
 }
+
+.clear {
+	clear: both;
+}
+
 /* Content */
 .column-left ul li {
 	font-family: "futuraStdBook";

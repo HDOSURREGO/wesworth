@@ -21,8 +21,15 @@
 }
 
 .sidebar button {
-	float: right;
+	margin-top: 5em;
+	padding: 1vh;
+	float: inline-start;
+	background-color: transparent;
 	color: #e15829;
+	font-family: "futuraStdHeavy";
+	font-size: 1.2vw;
+	width: 100%;
+	border-radius: 1vh;
 }
 
 .sidebar li:hover:not(.active) {

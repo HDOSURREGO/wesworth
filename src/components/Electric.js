@@ -35,42 +35,46 @@ export default class Electric extends React.Component {
 
 	render() {
 		return (
-			<div className="electric-wrapper">
-				<div className="centralImageElectric">
-					<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
-					<label>WESWORTH ELECTRIC</label>
+			<div>
+				<div className="electric-wrapper">
+					<div className="centralImageElectric">
+						<img src={WEBackground} alt="Wesworth-Electric" width="100%" />
+						<label>WESWORTH ELECTRIC</label>
+					</div>
+					<div className="whoWeAre">
+						<label>WHO WE ARE</label>
+						<p>
+							Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with
+							the basic objective of serving his community with a great quality
+							and a great customer service. Over the years Wesworth Electric has
+							evolved the array of services we offer, from small residential
+							services to high voltage and complex industrial installations.
+							Nowadays, Wesworth Electric is a division of Wesworth Construction
+							Group spanning customers in two states, and still keeping the
+							basic principles we were founded on: Great Quality and Excellent
+							Customer Service.
+						</p>
+					</div>
+					<div className="service-heads">
+						{this.state.serviceToShow === "commercial" && (
+							<CommercialServiceHead />
+						)}
+						{this.state.serviceToShow === "industrial" && (
+							<IndustrialServiceHead />
+						)}
+						{this.state.serviceToShow === "residential" && (
+							<ResidentialServicesHead />
+						)}
+						{this.state.serviceToShow === "property-management" && (
+							<PropertyManagementServicesHead />
+						)}
+						{this.state.serviceToShow === "builder" && <BuilderServicesHead />}
+						{this.state.serviceToShow === "schedule-form" && (
+							<ScheduleFormHead />
+						)}
+					</div>
 				</div>
-				<div className="whoWeAre">
-					<label>WHO WE ARE</label>
-					<p>
-						Wesworth Electric was founded in 1981 by Mr. Wesley Shreve with the
-						basic objective of serving his community with a great quality and a
-						great customer service. Over the years Wesworth Electric has evolved
-						the array of services we offer, from small residential services to
-						high voltage and complex industrial installations. Nowadays,
-						Wesworth Electric is a division of Wesworth Construction Group
-						spanning customers in two states, and still keeping the basic
-						principles we were founded on: Great Quality and Excellent Customer
-						Service.
-					</p>
-				</div>
-				<div>
-					{this.state.serviceToShow === "commercial" && (
-						<CommercialServiceHead />
-					)}
-					{this.state.serviceToShow === "industrial" && (
-						<IndustrialServiceHead />
-					)}
-					{this.state.serviceToShow === "residential" && (
-						<ResidentialServicesHead />
-					)}
-					{this.state.serviceToShow === "property-management" && (
-						<PropertyManagementServicesHead />
-					)}
-					{this.state.serviceToShow === "builder" && <BuilderServicesHead />}
-					{this.state.serviceToShow === "schedule-form" && <ScheduleFormHead />}
-				</div>
-				<div className="side-services">
+				<div className="side-services-wrapper">
 					<div className="electric-sidebar">
 						<ElectricSidebar serviceBox={this.serviceFromSideBar} />
 					</div>
@@ -91,6 +95,7 @@ export default class Electric extends React.Component {
 						)}
 						{this.state.serviceToShow === "schedule-form" && <ScheduleForm />}
 					</div>
+					<div className="clear"> </div>
 				</div>
 			</div>
 		);
