@@ -108,11 +108,7 @@ export default class Footer extends React.Component {
 				<div className="footer">
 					<div className="logoAddress">
 						<Link to={"/"} className="link">
-							<img
-								src={WesworthConstruction}
-								alt="Wesworth Construction"
-								// width="25%"
-							/>
+							<img src={WesworthConstruction} alt="Wesworth Construction" />
 						</Link>
 						<div>
 							<p>2351 N Dixie Hwy Pompano Beach, FL 33060</p>

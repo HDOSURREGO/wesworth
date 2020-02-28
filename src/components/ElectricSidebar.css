@@ -1,3 +1,9 @@
+.sidebar {
+	position: sticky;
+	padding-top: 30px;
+	width: 300px;
+}
+
 .sidebar ul {
 	/* display: flex; */
 	flex-flow: column nowrap;

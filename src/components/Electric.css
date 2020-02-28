@@ -1,6 +1,6 @@
-.body {
+/* .body {
 	margin: auto;
-}
+} */
 
 .electric-head {
 	display: flex;
@@ -50,7 +50,9 @@
 	font-size: 1.125vw;
 }
 
-.side-services {
+.side-services-wrapper {
+	display: flex;
+	position: relative;
 	width: 100%;
 	margin: auto;
 }
@@ -65,8 +67,8 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .service-content {
-	margin-left: 300px;
-	padding: 0px 0px 10px 50px;
+	margin: 50px;
+	padding: 20px 0px 10px 50px;
 	height: 100%;
 	float: left;
 }
