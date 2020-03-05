@@ -39,12 +39,17 @@
 	color: white;
 }
 
-button:focus {
+button:hover {
 	background-color: #e15829;
 	color: white;
 }
 
-li:focus {
+button:active {
+	background-color: #e15829;
+	color: white;
+}
+
+li a:active {
 	background-color: #e15829;
 	color: white;
 }
