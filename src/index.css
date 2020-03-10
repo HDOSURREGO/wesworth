@@ -1,9 +1,18 @@
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
 body {
 	width: 100%;
 	font-family: "futuraStd-Medium", "futuraStdBold", "futuraStdBook",
 		"futuraStdHeavy", "futuraStdHeavyOblique", "helveticaNeueLTStdRoman";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+	transform-style: preserve-3d;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 code {

@@ -21,6 +21,7 @@ export default class Home extends React.Component {
 					<div className="centeredMiddle">THROUGH</div>
 					<div className="centeredBottom">COMMITMENT</div>
 				</div>
+
 				<div className="aboutUS">
 					<h1>ABOUT US</h1>
 					<p>
@@ -33,6 +34,7 @@ export default class Home extends React.Component {
 						all endeavours we got in. Welcome to our site.
 					</p>
 				</div>
+
 				<div className="whatWeDo">
 					<div className="logo">
 						<Link to={"/electric"} className="link">
@@ -54,7 +56,6 @@ export default class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-
 				<div className="experience">
 					<div>39 YEARS OF EXPERIENCE</div>
 					<div>642 CLIENTS</div>
