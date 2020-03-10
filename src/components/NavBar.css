@@ -3,8 +3,12 @@
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
 	background: #404041;
-	color: white;
+	opacity: 0.5;
 	height: 15vh;
 }
 
@@ -15,16 +19,27 @@
 	float: left;
 }
 
+.nav-logo:hover {
+	background: #ddd;
+	color: black;
+}
+
 .nav-titles ul li {
 	float: right;
 	list-style: none;
 	padding: 10px;
 	font-family: "futuraStdBold";
 	font-size: 1.1vw;
+	color: black;
 }
 
 .nav-titles ul li a {
 	text-decoration: none;
+}
+
+.nav-titles ul li a:hover {
+	background: #ddd;
+	color: black;
 }
 
 .link {
