@@ -30,6 +30,7 @@
 }
 
 .nav-titles ul li a {
+	color: white;
 	text-decoration: none;
 }
 
@@ -37,6 +38,6 @@
 	color: #e15829;
 }
 
-.link {
-	color: white;
+.nav-titles ul li a:active {
+	color: #e15829;
 }

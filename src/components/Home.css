@@ -19,7 +19,7 @@
 
 .centeredTop {
 	position: fixed;
-	top: 35%;
+	top: 33%;
 	left: 45%;
 	transform: translate(-50%, -50%);
 	font-family: futuraStdHeavy;
@@ -89,12 +89,6 @@ p {
 	justify-content: space-evenly;
 }
 
-@media screen and (max-width: 500px) {
-	.whatWeDo {
-		width: 100%;
-	}
-}
-
 .experience {
 	display: flex;
 	flex-flow: row;
@@ -105,4 +99,150 @@ p {
 	font-family: futuraStdHeavy;
 	font-size: 1.5vw;
 	padding: 3.5%;
+}
+
+@media screen and (max-width: 500px) {
+	.whatWeDo {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1360px) {
+	.centeredTop {
+		position: fixed;
+		top: 30%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredMiddle {
+		position: fixed;
+		top: 40%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavyOblique;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredBottom {
+		position: fixed;
+		bottom: 50%;
+		right: 49%;
+		transform: translate(50%, 50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.centeredTop {
+		position: fixed;
+		top: 25%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredMiddle {
+		position: fixed;
+		top: 30%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavyOblique;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredBottom {
+		position: fixed;
+		bottom: 65%;
+		right: 49%;
+		transform: translate(50%, 50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.centeredTop {
+		position: fixed;
+		top: 25%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredMiddle {
+		position: fixed;
+		top: 30%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavyOblique;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+
+	.centeredBottom {
+		position: fixed;
+		bottom: 65%;
+		right: 49%;
+		transform: translate(50%, 50%);
+		font-family: futuraStdHeavy;
+		font-size: 6vw;
+		text-shadow: 4px 4px black;
+		z-index: 1;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.centeredTop {
+		position: fixed;
+		top: 22%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavy;
+		font-size: 5vw;
+		text-shadow: 2px 2px black;
+		z-index: 1;
+	}
+
+	.centeredMiddle {
+		position: fixed;
+		top: 25%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		font-family: futuraStdHeavyOblique;
+		font-size: 5vw;
+		text-shadow: 2px 2px black;
+		z-index: 1;
+	}
+
+	.centeredBottom {
+		position: fixed;
+		bottom: 72%;
+		right: 49%;
+		transform: translate(50%, 50%);
+		font-family: futuraStdHeavy;
+		font-size: 5vw;
+		text-shadow: 2px 2px black;
+		z-index: 1;
+	}
 }
