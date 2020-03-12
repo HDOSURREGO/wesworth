@@ -123,15 +123,14 @@ export default class Footer extends React.Component {
 									Subscribe to our newsletter to get relevant information about
 									our group.
 								</p>
-							</div>
-
-							<div class="form-group">
-								<input
-									className="form-input-nl"
-									type="text"
-									placeholder="Email address"
-									name="mail"
-								/>
+								<div class="form-group">
+									<input
+										className="form-input-nl"
+										type="text"
+										placeholder="Email address"
+										name="mail"
+									/>
+								</div>
 							</div>
 
 							<div class="container">

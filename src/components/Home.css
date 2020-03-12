@@ -107,41 +107,6 @@ p {
 	}
 }
 
-@media only screen and (max-width: 1360px) {
-	.centeredTop {
-		position: fixed;
-		top: 30%;
-		left: 45%;
-		transform: translate(-50%, -50%);
-		font-family: futuraStdHeavy;
-		font-size: 6vw;
-		text-shadow: 4px 4px black;
-		z-index: 1;
-	}
-
-	.centeredMiddle {
-		position: fixed;
-		top: 40%;
-		left: 46%;
-		transform: translate(-50%, -50%);
-		font-family: futuraStdHeavyOblique;
-		font-size: 6vw;
-		text-shadow: 4px 4px black;
-		z-index: 1;
-	}
-
-	.centeredBottom {
-		position: fixed;
-		bottom: 50%;
-		right: 49%;
-		transform: translate(50%, 50%);
-		font-family: futuraStdHeavy;
-		font-size: 6vw;
-		text-shadow: 4px 4px black;
-		z-index: 1;
-	}
-}
-
 @media only screen and (max-width: 1024px) {
 	.centeredTop {
 		position: fixed;
@@ -212,6 +177,28 @@ p {
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+	p {
+		font-family: futuraStdBook;
+		font-size: 1.5vw;
+		line-height: 1.5;
+		width: 90%;
+		text-align: justify;
+		padding-bottom: 3%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	p {
+		font-family: futuraStdBook;
+		font-size: 1.5vw;
+		line-height: 1.5;
+		width: 90%;
+		text-align: justify;
+		padding-bottom: 3%;
+	}
+}
+
 @media only screen and (max-width: 414px) {
 	.centeredTop {
 		position: fixed;
@@ -244,5 +231,20 @@ p {
 		font-size: 5vw;
 		text-shadow: 2px 2px black;
 		z-index: 1;
+	}
+
+	p {
+		font-family: futuraStdBook;
+		font-size: 1.5vw;
+		line-height: 1.5;
+		width: 90%;
+		text-align: justify;
+		padding-bottom: 3%;
+	}
+
+	.logo {
+		padding: 5%;
+		justify-content: space-evenly;
+		width: 90%;
 	}
 }

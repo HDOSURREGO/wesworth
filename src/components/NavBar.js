@@ -13,11 +13,7 @@ export default class NavBar extends React.Component {
 			<div className="navbar">
 				<div className="nav-logo">
 					<Link to={"/"} className="link">
-						<img
-							src={WesworthConstruction}
-							alt="Wesworth Construction"
-							width="25%"
-						/>
+						<img src={WesworthConstruction} alt="Wesworth Construction" />
 					</Link>
 				</div>
 				<div className="nav-titles">

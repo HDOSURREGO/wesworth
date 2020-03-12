@@ -88,7 +88,7 @@
 
 .form-input-nl {
 	background-color: transparent;
-	width: 100%;
+	width: 90%;
 	padding: 1%;
 	border: 1px solid white;
 	border-radius: 5px;
@@ -145,4 +145,68 @@ h2 {
 .usefulLinks a {
 	text-decoration: none;
 	margin: auto;
+	color: white;
+}
+
+@media only screen and (max-width: 414px) {
+	.footer {
+		display: block;
+		height: 100%;
+		background-color: #999899;
+		color: white;
+	}
+	.logoAddress p {
+		display: inline-block;
+		font-family: "futuraStd-Medium";
+		font-size: 8px;
+		line-height: 1.2;
+		width: 25%;
+		padding: 1%;
+		text-align: center;
+	}
+
+	.logoAddress img {
+		padding: 2%;
+		width: 20%;
+	}
+
+	.newsletter p {
+		display: inline-block;
+		font-size: 8px;
+		line-height: 1.2;
+		width: 100%;
+		padding: 1%;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		padding: 1%;
+		font-size: 10px;
+	}
+
+	.usefulLinks ul li {
+		display: block;
+		font-size: 8px;
+		text-align: center;
+	}
+
+	::placeholder {
+		color: lightgray;
+		font-size: 7px;
+	}
+
+	.form-input-nl {
+		width: 90%;
+		padding: 10px 10px 10px 10px;
+		font-size: 1.2vw;
+	}
+
+	.btn-nl {
+		display: inline-block;
+		background-color: transparent;
+		color: white;
+		width: 25%;
+		font-size: 8px;
+	}
 }
