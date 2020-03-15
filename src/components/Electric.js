@@ -55,6 +55,8 @@ export default class Electric extends React.Component {
 							Customer Service.
 						</p>
 					</div>
+				</div>
+				<div>
 					<div className="service-heads">
 						{this.state.serviceToShow === "commercial" && (
 							<CommercialServiceHead />

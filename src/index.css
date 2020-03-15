@@ -4,6 +4,7 @@ html {
 }
 
 body {
+	display: block;
 	width: 100%;
 	font-family: "futuraStd-Medium", "futuraStdBold", "futuraStdBook",
 		"futuraStdHeavy", "futuraStdHeavyOblique", "helveticaNeueLTStdRoman";

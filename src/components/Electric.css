@@ -1,16 +1,26 @@
+.electric-wrapper {
+	display: block;
+}
+
 .centralImageElectric {
 	text-align: center;
 	color: white;
 	background: #404041;
 	padding-top: 15vh;
 	position: relative;
+	z-index: -1;
+}
+
+.centralImageElectric img {
+	width: 100%;
 }
 
 .centralImageElectric label {
 	position: absolute;
+	z-index: 1;
 	text-align: right;
 	padding-right: 50px;
-	top: 40%;
+	top: 50%;
 	left: 50%;
 	transform: translate(0%, -50%);
 	font-family: futuraStdBook;
@@ -23,8 +33,8 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	flex-flow: row;
-	padding: 100px;
+	height: 100%;
+	padding: 50px;
 }
 
 .whoWeAre label {
@@ -33,11 +43,13 @@
 	color: #e15829;
 	left: 0px;
 	top: 0px;
+	background-color: white;
 }
 
 .whoWeAre p {
 	width: 50%;
 	font-size: 1.125vw;
+	background: white;
 }
 
 .side-services-wrapper {
@@ -59,7 +71,7 @@
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .service-content {
 	position: relative;
-	z-index: 2;
+	z-index: 20;
 	margin: 50px;
 	padding: 20px 0px 10px 50px;
 	height: 100%;
@@ -89,9 +101,12 @@
 
 @media only screen and (max-width: 414px) {
 	.centralImageElectric label {
-		position: fixed;
-		top: 20%;
+		top: 50%;
 		transform: translate(0%, 0%);
-		z-index: -1;
+	}
+
+	.whoWeAre {
+		height: 50px;
+		padding: 20px;
 	}
 }
