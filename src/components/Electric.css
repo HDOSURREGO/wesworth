@@ -23,7 +23,6 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	flex-flow: row;
 	padding: 100px;
 }
 
@@ -89,9 +88,37 @@
 
 @media only screen and (max-width: 414px) {
 	.centralImageElectric label {
-		position: fixed;
-		top: 20%;
+		top: 50%;
 		transform: translate(0%, 0%);
-		z-index: -1;
+	}
+
+	.whoWeAre {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.whoWeAre p {
+		width: 90%;
+		font-size: 1.5vw;
+		padding-top: 5px;
+	}
+
+	.side-services-wrapper {
+		display: block;
+		position: relative;
+		z-index: 2;
+		width: 100%;
+		margin: auto;
+	}
+
+	.service-content {
+		display: block;
+		position: relative;
+		z-index: 2;
+		margin: 5px;
+		padding: 10px;
 	}
 }
