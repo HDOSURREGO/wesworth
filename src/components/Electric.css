@@ -4,20 +4,13 @@
 	background: #404041;
 	padding-top: 15vh;
 	position: relative;
-	z-index: -2;
-}
-
-.centralImageElectric img {
-	position: relative;
-	z-index: -2;
 }
 
 .centralImageElectric label {
-	position: fixed;
-	z-index: 2;
+	position: absolute;
 	text-align: right;
 	padding-right: 50px;
-	top: 30%;
+	top: 40%;
 	left: 50%;
 	transform: translate(0%, -50%);
 	font-family: futuraStdBook;
