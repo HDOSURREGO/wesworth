@@ -1,29 +1,23 @@
-/* .body {
-	margin: auto;
-} */
-
-.electric-head {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: flex-end;
-	background-color: white;
-	padding: 2%;
-}
-
 .centralImageElectric {
-	position: relative;
 	text-align: center;
 	color: white;
 	background: #404041;
 	padding-top: 15vh;
+	position: relative;
+	z-index: -2;
+}
+
+.centralImageElectric img {
+	position: relative;
+	z-index: -2;
 }
 
 .centralImageElectric label {
-	position: absolute;
+	position: fixed;
+	z-index: 2;
 	text-align: right;
 	padding-right: 50px;
-	top: 50%;
+	top: 30%;
 	left: 50%;
 	transform: translate(0%, -50%);
 	font-family: futuraStdBook;
@@ -44,6 +38,8 @@
 	font-family: futuraStdHeavy;
 	font-size: 5vw;
 	color: #e15829;
+	left: 0px;
+	top: 0px;
 }
 
 .whoWeAre p {
@@ -54,6 +50,7 @@
 .side-services-wrapper {
 	display: flex;
 	position: relative;
+	z-index: 2;
 	width: 100%;
 	margin: auto;
 }
@@ -68,6 +65,8 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .service-content {
+	position: relative;
+	z-index: 2;
 	margin: 50px;
 	padding: 20px 0px 10px 50px;
 	height: 100%;
@@ -94,7 +93,12 @@
 	font-size: small;
 	padding: 5px;
 }
-/* h6 {
-	font-family: "helveticaNeueLTStdRoman";
-	font-size: small;
-} */
+
+@media only screen and (max-width: 414px) {
+	.centralImageElectric label {
+		position: fixed;
+		top: 20%;
+		transform: translate(0%, 0%);
+		z-index: -1;
+	}
+}
