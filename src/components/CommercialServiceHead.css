@@ -1,3 +1,15 @@
+.service-head {
+	display: flex;
+}
+
+.logoWE {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transform: translate(-200%, -300%);
+	z-index: 2;
+}
+
 .commercial-background img {
 	width: 10%;
 	position: relative;
@@ -5,13 +17,6 @@
 	left: 0;
 	z-index: 1;
 	background-color: white;
-}
-
-.logoWE {
-	position: absolute;
-	top: 150px;
-	left: 100px;
-	z-index: 2;
 }
 
 .commercial-head-text-top {
@@ -37,7 +42,7 @@
 
 @media only screen and (max-width: 414px) {
 	.logoWE {
-		position: absolute;
+		position: relative;
 		top: 10px;
 		left: 10px;
 		z-index: 2;
