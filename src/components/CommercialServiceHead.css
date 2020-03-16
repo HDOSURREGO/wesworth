@@ -3,10 +3,9 @@
 }
 
 .logoWE {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	transform: translate(-200%, -300%);
+	position: relative;
+	top: 10px;
+	left: 10px;
 	z-index: 2;
 }
 
@@ -42,9 +41,10 @@
 
 @media only screen and (max-width: 414px) {
 	.logoWE {
-		position: relative;
-		top: 10px;
-		left: 10px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		transform: translate(-200%, -300%);
 		z-index: 2;
 	}
 }
