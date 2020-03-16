@@ -57,15 +57,24 @@ hr {
 .column-right {
 	font-family: "futuraStdBook";
 	font-size: 1vw;
-	/* line-height: 1.2; */
 	width: 50%;
 	padding-bottom: 0%;
 }
 
 .column-right ul li {
 	font-family: "futuraStdBook";
-	font-size: 1vw;
+	font-size: 1.5vw;
 	width: 90%;
 	text-align: justify;
 	padding-bottom: 0%;
+}
+
+@media only screen and (max-width: 414px) {
+	h2 {
+		font-size: 10px;
+	}
+
+	.column-right ul li {
+		font-size: 10px;
+	}
 }

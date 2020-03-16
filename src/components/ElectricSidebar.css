@@ -53,3 +53,20 @@ li a:active {
 	background-color: #e15829;
 	color: white;
 }
+
+@media screen and (max-width: 414px) {
+	.sidebar button {
+		font-size: 10px;
+	}
+	.sidebar li {
+		float: left;
+		list-style: none;
+		padding: 5px;
+		padding-top: 8px;
+		font-family: "futuraStdHeavy";
+		font-size: 10px;
+		color: #e15829;
+		border-bottom: 1px solid black;
+		width: 100%;
+	}
+}
