@@ -34,3 +34,10 @@
 	font-size: 4vw;
 	color: #e15829;
 }
+@media only screen and (max-width: 414px) {
+	.industrial-head-text-top {
+		top: 95%;
+		left: 50%;
+		transform: translate(38%, -50%);
+	}
+}

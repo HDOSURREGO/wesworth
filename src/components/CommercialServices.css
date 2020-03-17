@@ -61,9 +61,9 @@ hr {
 	padding-bottom: 0%;
 }
 
-.column-right ul li {
+.commercial-services .column-right ul li {
 	font-family: "futuraStdBook";
-	font-size: 1.5vw;
+	font-size: 1vw;
 	width: 90%;
 	text-align: justify;
 	padding-bottom: 0%;
@@ -75,7 +75,7 @@ hr {
 	}
 	.column-right {
 		font-size: 10px;
-		width: 100%;
+		width: 50%;
 	}
 	.column-right ul li {
 		font-size: 10px;
@@ -83,7 +83,8 @@ hr {
 	.commercial-services .column-left ul li {
 		font-size: 10px;
 	}
-	.column-left p {
-		font-size: 15px;
+	.commercial-services .column-left p {
+		font-size: 10px;
+		width: 50%;
 	}
 }

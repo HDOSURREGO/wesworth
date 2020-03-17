@@ -47,4 +47,10 @@
 		transform: translate(-200%, -300%);
 		z-index: 2;
 	}
+	.commercial-head-text-top {
+		top: 95%;
+		left: 50%;
+		transform: translate(20%, -50%);
+		font-size: 4vw;
+	}
 }
