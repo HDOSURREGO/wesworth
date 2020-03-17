@@ -32,20 +32,21 @@ export default class BuilderServices extends React.Component {
 							<li>Future installations or repairs</li>
 						</ul>
 					</div>
-					<div class="column-right"></div>
-					<div>
-						<h3>Emergency Services</h3>
-						<ul>
-							<li>Temporary generators</li>
-							<li>Temporary power and cabling</li>
-							<li>Generator rentals</li>
-							<li>Pre-storm equipment check</li>
-							<li>Post-storm facilities + equipment check</li>
-							<p>
-								Count on Us 24/7. We will be there for you. Call Us – (954)
-								5804070
-							</p>
-						</ul>
+					<div class="column-right">
+						<div>
+							<h3>Emergency Services</h3>
+							<ul>
+								<li>Temporary generators</li>
+								<li>Temporary power and cabling</li>
+								<li>Generator rentals</li>
+								<li>Pre-storm equipment check</li>
+								<li>Post-storm facilities + equipment check</li>
+								<p>
+									Count on Us 24/7. We will be there for you. Call Us – (954)
+									5804070
+								</p>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

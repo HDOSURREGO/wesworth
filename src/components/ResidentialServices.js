@@ -7,7 +7,7 @@ export default class ResidentialServices extends React.Component {
 			<div className="service-wrapper">
 				<h2>RESIDENTIAL SERVICES</h2>
 				<hr />
-				<div class="commercial-services">
+				<div class="residential-services">
 					<div class="column-left">
 						<h3>Predictive Maintenance</h3>
 						<ul>

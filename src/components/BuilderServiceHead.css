@@ -20,7 +20,7 @@
 	padding-right: 50px;
 	top: 95%;
 	left: 41%;
-	transform: translate(95%, -50%);
+	transform: translate(133%, -50%);
 	font-family: futuraStdBook;
 	font-size: 4vw;
 }
@@ -33,4 +33,10 @@
 	font-family: futuraStdBook;
 	font-size: 4vw;
 	color: #e15829;
+}
+
+@media only screen and (max-width: 414px) {
+	.builder-head-text-top {
+		transform: translate(100%, -50%);
+	}
 }

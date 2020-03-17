@@ -1,4 +1,4 @@
-.commercial-services {
+.residential-services {
 	display: flex;
 	flex-direction: row;
 	background-color: white;
@@ -20,6 +20,7 @@
 	font-size: 1.2vw;
 	color: #e15829;
 }
+
 hr {
 	display: block;
 	height: 1px;
@@ -31,7 +32,7 @@ hr {
 
 .column-left ul li {
 	font-family: "futuraStdBook";
-	font-size: 1vw;
+	font-size: 1.5vw;
 	line-height: 1.3;
 	width: 90%;
 	text-align: justify;
@@ -57,9 +58,30 @@ hr {
 
 .column-right p {
 	font-family: "futuraStdBook";
-	font-size: 1vw;
+	font-size: 1.2vw;
 	line-height: 1.3;
 	width: 50%;
 	text-align: justify;
 	padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 414px) {
+	.service-wrapper h2 {
+		font-size: 10px;
+	}
+	.service-wrapper p {
+		font-size: 10px;
+	}
+	.residential-services .column-right ul li {
+		font-size: 10px;
+		width: 100%;
+	}
+	.service-wrapper .residential-services .column-left ul li {
+		font-size: 10px;
+		width: 50%;
+	}
+	.service-wrapper .residential-services .column-left ul p {
+		font-size: 10px;
+		width: 70%;
+	}
 }

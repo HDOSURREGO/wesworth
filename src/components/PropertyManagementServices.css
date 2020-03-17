@@ -65,3 +65,26 @@ hr {
 	text-align: justify;
 	padding-bottom: 1%;
 }
+
+@media only screen and (max-width: 414px) {
+	.service-wrapper h2 {
+		font-size: 10px;
+	}
+	.column-right {
+		font-size: 10px;
+		width: 100%;
+	}
+	.column-right ul li {
+		font-size: 10px;
+	}
+	.property-services .column-left ul li {
+		font-size: 10px;
+	}
+	.property-services .column-right p {
+		font-size: 10px;
+	}
+	.property-services .column-left p {
+		font-size: 10px;
+		width: 50%;
+	}
+}
