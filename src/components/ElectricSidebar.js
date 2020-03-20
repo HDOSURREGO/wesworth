@@ -42,10 +42,6 @@ export default class ElectricSidebar extends React.Component {
 							RESIDENTIAL SERVICES
 							<i class="fas fa-plus"></i>
 						</li>
-						{/* <li onClick={() => this.props.serviceBox("schedule-form")}>
-							SCHEDULE A SERVICE CALL
-							<i class="fas fa-plus"></i>
-						</li> */}
 					</ul>
 					<div>
 						<button
