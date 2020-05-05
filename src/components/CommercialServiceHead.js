@@ -18,6 +18,7 @@ export default class CommercialServiceHead extends Component {
 						src={CommercialServiceBackground}
 						alt="Commercial-Services"
 						width="100%"
+						height="100%"
 						className="commercial-background"
 					/>
 					<label className="commercial-head-text-top">COMMERCIAL</label>

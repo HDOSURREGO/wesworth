@@ -18,6 +18,7 @@ export default class BuilderServiceHead extends Component {
 						src={BuilderServiceBackground}
 						alt="builder-services"
 						width="100%"
+						height="100%"
 						className="builder-background"
 					/>
 					<label className="builder-head-text-top">BUILDER</label>

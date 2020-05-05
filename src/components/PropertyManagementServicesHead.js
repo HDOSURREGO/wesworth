@@ -18,6 +18,7 @@ export default class PropertyManagementServicesHead extends Component {
 						src={PropertyManagementServiceBackground}
 						alt="Commercial-Services"
 						width="100%"
+						height="100%"
 						className="property-management-background"
 					/>
 					<label className="property-management-head-text-top">

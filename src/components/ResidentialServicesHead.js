@@ -18,6 +18,7 @@ export default class ResidentialServicesHead extends Component {
 						src={ResidentialServiceBackground}
 						alt="residential-Services"
 						width="100%"
+						height="100%"
 						className="residential-background"
 					/>
 					<label className="residential-head-text-top">RESIDENTIAL</label>

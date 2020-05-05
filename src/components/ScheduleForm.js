@@ -14,7 +14,7 @@ export default class ScheduleForm extends Component {
 			state: "Florida",
 			zipCode: "",
 			emailAddress: "",
-			message: ""
+			message: "",
 		};
 		this.resetForm = this.resetForm.bind(this);
 		this.handleSubmitScheduleForm = this.handleSubmitScheduleForm.bind(this);
@@ -31,8 +31,8 @@ export default class ScheduleForm extends Component {
 		axios({
 			method: "POST",
 			url: `${process.env.REACT_APP_API_URL}/electric/send`,
-			data: this.state
-		}).then(response => {
+			data: this.state,
+		}).then((response) => {
 			if (response.data.status === "success") {
 				console.log("Message Sent.");
 				console.log("luego de enviar al backend", this.state);
@@ -53,7 +53,7 @@ export default class ScheduleForm extends Component {
 			state: "Florida",
 			zipCode: " ",
 			emailAddress: " ",
-			message: " "
+			message: " ",
 		});
 	}
 
@@ -64,7 +64,7 @@ export default class ScheduleForm extends Component {
 					<div>
 						<form
 							className="contact-form"
-							onSubmit={event => this.handleSubmitScheduleForm(event)}
+							onSubmit={(event) => this.handleSubmitScheduleForm(event)}
 							method="POST"
 						>
 							<div className="form-section">
@@ -74,7 +74,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="companyName"
 									value={this.state.companyName}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 							</div>
 							<div className="form-section">
@@ -84,7 +84,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="personToContact"
 									value={this.state.personToContact}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 								<h3 htmlFor="contact-phone">Company Contact Phone</h3>
 								<input
@@ -92,7 +92,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="contactPhone"
 									value={this.state.contactPhone}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 							</div>
 							<div className="form-section">
@@ -102,7 +102,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="streetAddress"
 									value={this.state.streetAddress}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 								<h3 htmlFor="city">City</h3>
 								<input
@@ -110,7 +110,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="city"
 									value={this.state.city}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 								<h3 htmlFor="state">State</h3>
 								<input
@@ -125,7 +125,7 @@ export default class ScheduleForm extends Component {
 									className="input-field"
 									name="zipCode"
 									value={this.state.zipCode}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 							</div>
 							<div className="form-section">
@@ -136,7 +136,7 @@ export default class ScheduleForm extends Component {
 									aria-describedby="emailHelp"
 									name="emailAddress"
 									value={this.state.emailAddress}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								/>
 							</div>
 							<div className="form-section">
@@ -146,7 +146,7 @@ export default class ScheduleForm extends Component {
 									rows="5"
 									name="message"
 									value={this.state.message}
-									onChange={event => this.genericSync(event)}
+									onChange={(event) => this.genericSync(event)}
 								></textarea>
 							</div>
 							<button type="submit" className="btn">

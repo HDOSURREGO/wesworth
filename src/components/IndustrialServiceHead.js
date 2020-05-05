@@ -18,6 +18,7 @@ export default class IndustrialServiceHead extends Component {
 						src={IndustrialServiceBackground}
 						alt="industrial-services"
 						width="100%"
+						height="100%"
 						className="industrial-background"
 					/>
 					<label className="industrial-head-text-top">INDUSTRIAL</label>

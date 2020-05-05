@@ -1,10 +1,10 @@
 .residential-background img {
-	width: 10%;
 	position: relative;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	background-color: white;
+	height: 100%;
 }
 
 .logoWE {

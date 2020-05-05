@@ -5,7 +5,7 @@ export default class PropertyManagmentServices extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			isActive: false
+			isActive: false,
 		};
 	}
 	render() {
@@ -19,7 +19,8 @@ export default class PropertyManagmentServices extends React.Component {
 						<ul>
 							<li>Perform an all-points audit of your electrical systems</li>
 							<li>Infrared thermal scanning</li>
-							<li>Offline electrical testing</li> <li>Current analysis</li>
+							<li>Offline electrical testing</li>
+							<li>Current analysis</li>
 							<li>Emergency and exit lights testing</li>
 							<li>Surge suppression devices</li>
 							<h3>Emergency Services</h3>
